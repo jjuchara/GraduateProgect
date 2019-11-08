@@ -15,28 +15,27 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="Css/slick.css">
-<link rel="stylesheet" href="Css/animate.css">
+<link rel="stylesheet" href="Css/swiper.min.css>
 <link rel="stylesheet" href="Css/main.css">
 <link rel="stylesheet" href="css/media.css">
 <title>Front-end developer</title>
 </head>
 <body>
-    <div class="modal">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h2 class="madal-header__heading">Заказать звонок</h2>
-            <button class="close-btn"><span class="close"></span></button>
-          </div>
-          <div class="modal-body">
-            <form action="#" class="modal-form">
-              <input class="modal-form__phone" type="phone" placeholder="Введите Ваш номер телефона">
-              <input class="modal-form__mail" type="email" placeholder="Введите Ваш email">
-              <input class="modal-form__btn" type="submit"></input>
-            </form>
-          </div>
-        </div>
+<div class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="madal-header__heading">Заказать звонок</h2>
+        <button class="close-btn"><span class="close"></span></button>
       </div>
+      <div class="modal-body">
+        <form action="#" class="modal-form">
+          <input class="modal-form__phone" type="phone" placeholder="Введите Ваш номер телефона">
+          <input class="modal-form__mail" type="email" placeholder="Введите Ваш email">
+          <input class="modal-form__btn" type="submit"></input>
+        </form>
+      </div>
+    </div>
+</div>
 <header class="header">
   <div class="container flex-container">
       <div class="mob-menu-wrapper">
@@ -73,89 +72,91 @@
           </div>
         </div>
       </div>
-  <div class="html-tegs">
+  <!-- <div class="html-tegs">
     <span class="html-teg__item header__item_div">&lt;div&gt; </span>
     <span class="html-teg__item header__item_div1">&lt;div&gt;</span>
     <span class="html-teg__item header__item_grid">#</span>
     <span class="html-teg__item header__item_brackets">{ }</span>
     <span class="html-teg__item header__item_close">&lt;/&gt;</span>
-  </div>
+  </div> -->
 </header>
-<section class="skills" id="skills">
-  <div class="container">
-      <h2 class="heading">Что я делаю</h2>
-      <div class="skills__item-wrapper flex-container">
-          <div class="skills__item">
-              <img src="img/tools-and-utensils.png" alt="Значек верстки" class="skills__img">
-              <span class="skills__desc img-desc">Вёрстка лендинг–страниц
-                  и&nbsp;сайтов любой сложности</span>
-          </div>
+<main class="main">
+  <section class="skills" id="skills">
+    <div class="container">
+        <h2 class="heading">Что я делаю</h2>
+        <div class="skills__item-wrapper flex-container">
             <div class="skills__item">
-                <img src="img/responsive.png" alt="Значек верстки" class="skills__img">
-                <span class="skills__desc img-desc">Адаптивная вёрстка под&nbsp;все
-&nbsp;браузеры и&nbsp;устройства</span>
+                <img src="img/tools-and-utensils.png" alt="Значек верстки" class="skills__img">
+                <span class="skills__desc img-desc">Вёрстка лендинг–страниц
+                    и&nbsp;сайтов любой сложности</span>
             </div>
-            <div class="skills__item">
-                <img src="img/programming.png" alt="Значек верстки" class="skills__img">
-                <span class="skills__desc img-desc">Frontend–разработка
-                    и&nbsp;программирование</span>
-            </div>
-            <div class="skills__item">
-                <img src="img/coding.png" alt="Значек верстки" class="skills__img">
-                <span class="skills__desc img-desc">Исправление и доработка
-                    существующей вёрстки</span>
-            </div>
-      </div>
-      <button class="button_fill skills__button">Узнать стоимость</button>
-  </div> 
-</section>
-<section class="cases" id="cases">
-  <div class="container">
-    <h2 class="heading">Примеры моих работ</h2>
-    <div class="case-wrapper flex-container slider">
-      <figure class="case">
-        <a href="#">
-            <img class="case__img" src="img/Site_1.jpg" alt="Сайт пихолога">
-        </a>
-        <figcaption>
-            <span class="case__desc img-desc">Сайт психолога Веры Антоновой</span>
-        </figcaption>
-      </figure>
-      <figure class="case">
+              <div class="skills__item">
+                  <img src="img/responsive.png" alt="Значек верстки" class="skills__img">
+                  <span class="skills__desc img-desc">Адаптивная вёрстка под&nbsp;все
+  &nbsp;браузеры и&nbsp;устройства</span>
+              </div>
+              <div class="skills__item">
+                  <img src="img/programming.png" alt="Значек верстки" class="skills__img">
+                  <span class="skills__desc img-desc">Frontend–разработка
+                      и&nbsp;программирование</span>
+              </div>
+              <div class="skills__item">
+                  <img src="img/coding.png" alt="Значек верстки" class="skills__img">
+                  <span class="skills__desc img-desc">Исправление и доработка
+                      существующей вёрстки</span>
+              </div>
+        </div>
+        <button class="button_fill skills__button">Узнать стоимость</button>
+    </div> 
+  </section>
+  <section class="cases" id="cases">
+    <div class="container">
+      <h2 class="heading">Примеры моих работ</h2>
+      <div class="case-wrapper flex-container slider">
+        <figure class="case">
           <a href="#">
-              <img class="case__img" src="img/Site_2.jpg" alt="Детский магазин">
+              <img class="case__img" src="img/Site_1.jpg" alt="Сайт пихолога">
           </a>
           <figcaption>
-              <span class="case__desc img-desc">Cайт магазина детской одежды</span>
+              <span class="case__desc img-desc">Сайт психолога Веры Антоновой</span>
           </figcaption>
         </figure>
         <figure class="case">
             <a href="#">
-                <img class="case__img" src="img/Site_3.jpg" alt="Магазин рыболова">
+                <img class="case__img" src="img/Site_2.jpg" alt="Детский магазин">
             </a>
             <figcaption>
-                <span class="case__desc img-desc">Cайт магазина «Рыболов</span>
+                <span class="case__desc img-desc">Cайт магазина детской одежды</span>
             </figcaption>
           </figure>
+          <figure class="case">
+              <a href="#">
+                  <img class="case__img" src="img/Site_3.jpg" alt="Магазин рыболова">
+              </a>
+              <figcaption>
+                  <span class="case__desc img-desc">Cайт магазина «Рыболов</span>
+              </figcaption>
+            </figure>
+      </div>
     </div>
-  </div>
-  <button class="button_fill case__button">Заказать проект</button>
-</section>
-<section class="price" id="price"> 
-        <div class="container">
-          <h3 class="price__title">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за 4 часа.*</h3>
-          <div class="price__desc">
-            <span class="price__desc-text">* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально,<br> в зависимости от сложности задач.</span>
+    <button class="button_fill case__button">Заказать проект</button>
+  </section>
+  <section class="price" id="price"> 
+          <div class="container">
+            <h3 class="price__title">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за 4 часа.*</h3>
+            <div class="price__desc">
+              <span class="price__desc-text">* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально,<br> в зависимости от сложности задач.</span>
+            </div>
           </div>
-        </div>
-        <div class="html-tegs">
-          <span class="price-html-teg__item price__item_div">&lt;div&gt;</span>
-          <span class="price-html-teg__item price__item_brackets1">{ }</span>
-          <span class="price-html-teg__item price__item_grid">#</span>
-          <span class="price-html-teg__item price__item_brackets">{ }</span>
-          <span class="price-html-teg__item price__item_close">&lt;/&gt;</span>
-        </div>
-</section>
+          <!-- <div class="html-tegs">
+            <span class="price-html-teg__item price__item_div">&lt;div&gt;</span>
+            <span class="price-html-teg__item price__item_brackets1">{ }</span>
+            <span class="price-html-teg__item price__item_grid">#</span>
+            <span class="price-html-teg__item price__item_brackets">{ }</span>
+            <span class="price-html-teg__item price__item_close">&lt;/&gt;</span>
+          </div> -->
+  </section>
+</main>
 <footer class="footer">
   <div class="container flex-container">
         <ul class="footer-nav">
@@ -184,7 +185,7 @@
   </div>
 </footer>
   <script src="JS/jquery-3.4.1.min.js"></script>
-  <script src="JS/slick.js"></script>
+  <script src="JS/swiper.min.js"></script>
   <script src="JS/main.js"></script>
 </body>
 </html>

@@ -643,7 +643,7 @@ a[href^="mailto:"]:hover {
   transform-origin: center;
 }
 
-/*----------  Мобильная кнопка  ----------*/
+/*----------  Круглая кнопка телефона мобильной версии  ----------*/
 .mob-btn {
   display: none;
   width: 35px;
@@ -673,14 +673,9 @@ a[href^="mailto:"]:hover {
   -webkit-text-fill-color: transparent;
   color: #6055c4;
 }
-/**----------  End of Мобильная кнопка  ----------*/
 
+/*----------  Настройка Слайдера  ----------*/
 
-/**
- *
- * *Настройка Слайдера 
- *
- */
 .slick-dots {
   display: inline-flex;
   margin: 0 auto;
@@ -701,13 +696,9 @@ li.slick-active button {
   background-color: #ff4e2e;
 }
 
-
-
-/*=============================================
-=            Pop-up menu            =
-=============================================*/
+/*----------  Pop-up menu   ----------*/
 .stop-scrollong {
-  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -822,7 +813,3 @@ li.slick-active button {
   outline: none;
   border: none;
 }
-
-/*=====  End of Pop-up menu  ======*/
-
-
