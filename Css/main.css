@@ -212,6 +212,10 @@ header {
 }
 
 /*---------- Примеры моих работ cекция  ----------*/
+.case-wrapper {
+  position: relative;
+}
+
 .case__img {
   margin-bottom: 34px;
 }
@@ -231,46 +235,7 @@ header {
   margin-bottom: 102px;
 }
 
-.slick-slide {
-  margin-right: 30px;
-}
-
-.prev {
-  display: block;
-  width: 61px;
-  height: 60px;
-  border-radius: 100px;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
-  background-color: #ffffff;
-  position: absolute;
-  left: -30px;
-  bottom: 50%;
-  background-image: url(../img/left-arrow.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 9;
-}
-
-.next {
-  display: block;
-  width: 61px;
-  height: 60px;
-  border-radius: 100px;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
-  background-color: #ffffff;
-  position: absolute;
-  right: -30px;
-  bottom: 50%;
-  background-image: url(../img/right-arrow.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 9;
-}
-
 /*----------  Цена секция  ----------*/
-
 .price {
   background-color: #ebebeb;
   background-image: linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
@@ -675,25 +640,74 @@ a[href^="mailto:"]:hover {
 }
 
 /*----------  Настройка Слайдера  ----------*/
-
-.slick-dots {
-  display: inline-flex;
-  margin: 0 auto;
-  margin-top: 102px;
+.swiper-container {
+  width: 100%;
 }
 
-.slick-dots li button {
+.swiper-container img {
+  width: 100%;
+}
+
+.prev {
   display: block;
+  width: 61px;
+  height: 60px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  position: absolute;
+  left: -30px;
+  bottom: 50%;
+  background-image: url(../img/left-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+  outline: none;
+}
+
+.next {
+  display: block;
+  width: 61px;
+  height: 60px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  position: absolute;
+  right: -30px;
+  bottom: 50%;
+  background-image: url(../img/right-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .prev, .next {
+    display: none;
+  }
+}
+
+.swiper-pagination {
+  left: 50%;
+  bottom: -30px;
+}
+
+.swiper-pagination-bullet {
   margin-right: 30px;
   width: 18px;
   height: 18px;
-  background-color: #ebebeb;
+  background-color: #857f7f;
   border-radius: 100%;
   text-indent: -9999px;
+  outline: none;
 }
 
-li.slick-active button {
+.swiper-pagination-bullet-active {
   background-color: #ff4e2e;
+  outline: none;
 }
 
 /*----------  Pop-up menu   ----------*/

@@ -15,7 +15,7 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="Css/swiper.min.css>
+<link rel="stylesheet" href="Css/swiper.min.css">
 <link rel="stylesheet" href="Css/main.css">
 <link rel="stylesheet" href="css/media.css">
 <title>Front-end developer</title>
@@ -112,31 +112,38 @@
   <section class="cases" id="cases">
     <div class="container">
       <h2 class="heading">Примеры моих работ</h2>
-      <div class="case-wrapper flex-container slider">
-        <figure class="case">
-          <a href="#">
-              <img class="case__img" src="img/Site_1.jpg" alt="Сайт пихолога">
-          </a>
-          <figcaption>
-              <span class="case__desc img-desc">Сайт психолога Веры Антоновой</span>
-          </figcaption>
-        </figure>
-        <figure class="case">
-            <a href="#">
-                <img class="case__img" src="img/Site_2.jpg" alt="Детский магазин">
-            </a>
-            <figcaption>
-                <span class="case__desc img-desc">Cайт магазина детской одежды</span>
-            </figcaption>
-          </figure>
-          <figure class="case">
-              <a href="#">
-                  <img class="case__img" src="img/Site_3.jpg" alt="Магазин рыболова">
-              </a>
-              <figcaption>
-                  <span class="case__desc img-desc">Cайт магазина «Рыболов</span>
-              </figcaption>
-            </figure>
+      <div class="case-wrapper flex-container">
+          <div class="prev"></div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <figure class="case swiper-slide">
+                  <a href="#">
+                      <img class="case__img" src="img/Site_1.jpg" alt="Сайт пихолога">
+                  </a>
+                  <figcaption>
+                      <span class="case__desc img-desc">Сайт психолога Веры Антоновой</span>
+                  </figcaption>
+              </figure>
+              <figure class="case swiper-slide">
+                  <a href="#">
+                      <img class="case__img" src="img/Site_2.jpg" alt="Детский магазин">
+                  </a>
+                  <figcaption>
+                      <span class="case__desc img-desc">Cайт магазина детской одежды</span>
+                  </figcaption>
+              </figure>
+              <figure class="case swiper-slide">
+                  <a href="#">
+                      <img class="case__img" src="img/Site_3.jpg" alt="Магазин рыболова">
+                  </a>
+                  <figcaption>
+                      <span class="case__desc img-desc">Cайт магазина «Рыболов</span>
+                  </figcaption>
+              </figure>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="next"></div>
       </div>
     </div>
     <button class="button_fill case__button">Заказать проект</button>

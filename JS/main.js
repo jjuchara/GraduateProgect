@@ -1,24 +1,38 @@
 $(document).ready(function(){
-  $('.slider').slick({
-    infinite: true,
-    initialSlide: 3,
-    slidesToShow : 2,
-    variableWidth: true,
-    speed: 800,
-    prevArrow: '<button class="prev"></button>',
-    nextArrow: '<button class="next"></button>',
-    responsive: [
-      {
-        breackpoint: 1140,
-        settings: {
-          slidesToShow : 2,
-          dots: true,
-          arrows: false,
-        }
-      },
 
-    ]
-  });
+  /*----------  Инициализация Swiper Slider  ----------*/
+  var mySwiper = new Swiper ('.swiper-container', {
+    loop: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: 'true'
+        },
+      },
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: 'true'
+        },
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: '.next',
+          prevEl: '.prev'
+        },
+      }
+    }
+  })
+  
+  
 
 // !Сделать чтобы при нажатии на ссылку меню сворачивалось и убирался класс
 
