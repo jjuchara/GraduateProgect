@@ -1,0 +1,388 @@
+/* font-family: 'Roboto', sans-serif; 
+   font-family: 'Roboto Black', arial;
+ */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #fbfbfb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.html-tegs {
+}
+
+.
+
+/* *Header */
+
+header {
+  margin-top: 29px;
+}
+
+.header-nav ul li a {
+  color: #1f1f24;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 34px;
+  cursor: pointer;
+}
+
+.header-nav ul li a:hover {
+  color: #fc557c;
+  text-decoration: underline;
+}
+
+.phone {
+  color: #1f1f24;
+  font-size: 21px;
+  font-weight: 700;
+  margin-right: 13px;
+}
+
+.button__call {
+  width: 207px;
+  height: 45px;
+  color: #f53f4f;
+  background-color: transparent;
+  border: 1px solid #f82370;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.heading {
+  color: #1f1f24;
+  font-family: 'Roboto Black', arial;
+  font-size: 78px;
+  font-weight: 400;
+  margin-top: 225px;
+  margin-bottom: 20px;
+}
+
+.heading__desc {
+  color: #8993ad;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.button__more {
+  width: 270px;
+  height: 60px;
+  margin-top: 46px;
+  background-color: #ff4e2e;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.person {
+  margin-top: 57px;
+  margin-left: 24px;
+  display: block;
+  z-index: 9;
+}
+
+.person__bg {
+  width: 814px;
+  height: 630px;
+  position: absolute;
+  right: -390px;
+  top: 64px;
+  background-image: url(../img/Ellipse_1.svg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/** Что я делаю секция */
+
+.skills {
+  background-color: #fff;
+}
+
+h2 {
+  color: #262626;
+  font-size: 54px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.skills-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 93px;
+  margin-bottom: 24px;
+}
+
+.img__desc {
+  display: block;
+  color: #8993ad;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skills .button__more {
+  margin-bottom: 103px;
+  margin-top: 95px;
+}
+
+/** Примеры моих работ */
+
+.cases h2 {
+  margin-bottom: 103px;
+}
+
+.case-img__desc {
+  margin-top: 24px;
+  min-width: 310px;
+  text-align: center;
+}
+
+.cases .button__more {
+  margin-top: 96px;
+  margin-bottom: 102px;
+}
+
+.prev {
+  display: block;
+  width: 61px;
+  height: 60px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  position: absolute;
+  left: -30px;
+  bottom: 50%;
+  background-image: url(../img/left-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+
+.next {
+  display: block;
+  width: 61px;
+  height: 60px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  position: absolute;
+  right: -30px;
+  bottom: 50%;
+  background-image: url(../img/right-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+
+}
+
+/** Цена */
+
+.price {
+  background-color: #ebebeb;
+  background-image: linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+}
+
+
+.price-title {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 10%;
+  margin-top: 86px;
+  margin-bottom: 40px;
+}
+
+.price__desc {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 86px;
+}
+
+.price__desc-text {
+  display: block;
+  width: 80%;
+}
+
+/** Футер */
+
+footer {
+  margin-top: 86px;
+}
+
+.footer-nav a {
+  color: #8993ad;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 0;
+}
+
+.footer-nav__items {
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.footer-nav__items:last-child {
+  margin-bottom: 0;
+}
+
+footer ul li a:hover {
+  color: #fc557c;
+  text-decoration: underline;
+}
+
+.footer-phone::before {
+  font-family: FontAwesome;
+  content: "\f095";
+  padding-right: 20px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+  background: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+
+.footer-phone {
+  display: block;
+  margin-bottom: 34px;
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 1;
+}
+
+a[href^="tel:"] {
+  text-decoration: none;
+  color: #000000;
+}
+
+a[href^="tel:"]:hover {
+  text-decoration: none;
+  color: #fc557c;
+}
+
+.footer-mail::before {
+  font-family: FontAwesome;
+  content: "\f0e0";
+  padding-right: 20px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+  background: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+
+.footer-mail {
+  display: block;
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 1;
+}
+
+a[href^="mailto:"] {
+  text-decoration: none;
+  color: #000000;
+}
+
+a[href^="mailto:"]:hover {
+  text-decoration: none;
+  color: #fc557c;
+
+}
+
+.socials-icons {
+  width: 100%;
+  padding-left: 0;
+}
+
+.socials-icons li {
+  margin-top: 35px;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.vk a {
+  display: block;
+  width: 28px;
+  height: 21px;
+  background: url(../img/4-layers.png) no-repeat 0% / cover;
+  cursor: pointer;
+}
+
+.fb a {
+  display: block;
+  width: 16px;
+  height: 28px;
+  background: url(../img/4-layers.png) no-repeat 35% / cover;
+  cursor: pointer;
+}
+
+.tw a {
+  display: block;
+  width: 29px;
+  height: 25px;
+  background: url(../img/4-layers.png) no-repeat 67% / cover;
+  cursor: pointer;
+}
+
+.ig a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url(../img/4-layers.png) no-repeat 101% / cover;
+  cursor: pointer;
+}
+
+.footer-btn {
+  width: 248px;
+  height: 45px;
+}
+
+.footer-rights {
+  background-color: #31293c;
+  text-align: center;
+  margin-top: 96px;
+}
+
+.footer-rights__text {
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  padding-top: 32px;
+  padding-bottom: 33px;
+}

@@ -1,0 +1,851 @@
+/* font-family: 'Roboto', sans-serif; 
+   font-family: 'Roboto Black', arial;
+ */
+
+/*=============================================
+=            Общие стили            =
+=============================================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #fbfbfb;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+  border: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: #262626;
+  font-size: 54px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 103px;
+  line-height: 1;
+  padding-top: 88px;
+}
+
+.button_empty {
+  display: block;
+  color: #f53f4f;
+  background-color: transparent;
+  border: 1px solid #f82370;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.button_fill {
+  display: block;
+  width: 270px;
+  height: 60px;
+  background-color: #ff4e2e;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+}
+
+.img-desc {
+  color: #8993ad;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*=====  End of Общие стили  ======*/
+
+/*=============================================
+=            Header            =
+=============================================*/
+header {
+  margin-top: 29px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+}
+
+.nav ul li a {
+  color: #1f1f24;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 34px;
+  cursor: pointer;
+}
+
+.nav ul li a:hover {
+  color: #fc557c;
+  text-decoration: underline;
+}
+
+.header-contact__phone {
+  color: #1f1f24;
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+
+.header-contact__button {
+  width: 207px;
+  height: 45px;
+}
+
+/**----------  Мобильная кнопка  ----------*/
+.mob-btn {
+  display: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+  background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+  cursor: pointer;
+}
+
+.mob-btn span {
+  display: block;
+  width: 33px;
+  height: 33px;
+  padding: 7px;
+  border-radius: 50px;
+  background-color: #fff;
+  -webkit-transform: translate(1px);
+  transform: translate(1px);
+}
+
+.fa-phone {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+  background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #6055c4;
+}
+/**----------  End of Мобильная кнопка  ----------*/
+
+.bg-wrapper {
+  background-image: url(../img/Ellipse_1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 100%;
+  margin-top: 64px;
+}
+
+.developer {
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-right: -40px;
+  transform: translateY(-44px);
+}
+
+.developer__name {
+  color: #1f1f24;
+  font-family: 'Roboto Black', arial;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 22px;
+}
+
+.developer__desc {
+  display: block;
+  color: #8993ad;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 46px;
+}
+
+.developer-img {
+  margin-right: -81px;
+}
+
+.developer-img__photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*=====  End of Header  ======*/
+
+/**----------  Что я делаю секция  ----------*/
+
+.skills {
+  background-color: #fff;
+  padding-bottom: 103px;
+}
+
+.skills__item-wrapper {
+  margin-bottom: 85px;
+}
+
+.skills__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.skills__desc {
+  display: block;
+  width: 275px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skills__button {
+  display: block;
+  margin: 0 auto;
+}
+
+/**=====  End of Что я делаю секция  ======*/
+
+
+
+/**----------  Subsection Примеры моих работ  ----------*/
+.case__img {
+  margin-bottom: 34px;
+}
+
+.case figcaption {
+  text-align: center;
+}
+
+.case__desc {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.case__button {
+  margin: 0 auto;
+  margin-top: 96px;
+  margin-bottom: 102px;
+}
+
+.slick-slide {
+  margin-right: 30px;
+}
+
+.prev {
+  display: block;
+  width: 61px;
+  height: 60px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  position: absolute;
+  left: -30px;
+  bottom: 50%;
+  background-image: url(../img/left-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+
+.next {
+  display: block;
+  width: 61px;
+  height: 60px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  position: absolute;
+  right: -30px;
+  bottom: 50%;
+  background-image: url(../img/right-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+
+/**=====  End of Примеры моих работ  ======*/
+
+
+/**----------  Цена  ----------*/
+
+.price {
+  background-color: #ebebeb;
+  background-image: linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+}
+
+
+.price__title {
+  color: #ffffff;
+  font-size: 45px;
+  width: 85%;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-right: 59px;
+  padding-top: 76px;
+  padding-bottom: 35px;
+}
+
+.price__desc {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.price__desc-text {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  margin-right: 59px;
+}
+
+/**----------  Footer  ----------*/
+footer {
+  margin-top: 74px;
+}
+
+.footer-nav a {
+  color: #8993ad;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 0;
+}
+
+.footer-nav__items {
+  margin-bottom: 11px;
+  cursor: pointer;
+}
+
+.footer-nav__items:last-child {
+  margin-bottom: 15px;
+}
+
+footer ul li a:hover {
+  color: #fc557c;
+  text-decoration: underline;
+}
+
+.contacts-wrapper {
+  margin-left: 87px;
+}
+
+.footer-phone::before {
+  font-family: FontAwesome;
+  content: "\f095";
+  padding-right: 20px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+  background: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+
+.footer-phone {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 1;
+}
+
+a[href^="tel:"] {
+  text-decoration: none;
+  color: #000000;
+}
+
+a[href^="tel:"]:hover {
+  text-decoration: none;
+  color: #fc557c;
+}
+
+.footer-mail::before {
+  font-family: FontAwesome;
+  content: "\f0e0";
+  padding-right: 20px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+  background: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+
+.footer-mail {
+  display: block;
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+a[href^="mailto:"] {
+  text-decoration: none;
+  color: #000000;
+}
+
+a[href^="mailto:"]:hover {
+  text-decoration: none;
+  color: #fc557c;
+}
+
+.social-icon-wrapper {
+  margin-right: 20px;
+}
+
+.socials-icons {
+  width: 100%;
+  padding-left: 0;
+  margin-top: 29px;
+}
+
+.socials-icons li {
+  display: inline-block;
+  padding-right: 14px;
+}
+
+.socials-icons_vk a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../img/4-layers.png);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  cursor: pointer;
+}
+
+.socials-icons_fb a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/4-layers.png) no-repeat 35% / cover;
+  cursor: pointer;
+}
+
+.socials-icons_tw a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/4-layers.png) no-repeat 67% / cover;
+  cursor: pointer;
+}
+
+.socials-icons_ig a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/4-layers.png) no-repeat 101% / cover;
+  cursor: pointer;
+}
+
+.footer-btn {
+  width: 248px;
+  height: 45px;
+}
+
+.footer-rights {
+  background-color: #31293c;
+  text-align: center;
+  margin-top: 76px;
+}
+
+.footer-rights__text {
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  padding-top: 32px;
+  padding-bottom: 33px;
+}
+
+/*=============================================
+=            Всплывающие HTML Теги            =
+=============================================*/
+.html-tegs {
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1s;
+}
+
+.html-teg__item {
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
+  background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #6055c4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.header__item_close {
+  -webkit-transform: translate(186px, -127px) rotate(-21deg);
+  transform: translate(186px, -127px) rotate(-21deg);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 33.97px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.header__item_div {
+  -webkit-transform: translate(765px, -254px) rotate(20deg);
+  transform: translate(765px, -254px) rotate(20deg);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 31.75px;
+}
+
+.header__item_div1 {
+  -webkit-transform: translate(594px, -633px) rotate(-16deg);
+  transform: translate(594px, -633px) rotate(-16deg);
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 26.07px;
+}
+
+.header__item_grid {
+  -webkit-transform: translate(55px, -437px) rotate(16deg);
+  transform: translate(55px, -437px) rotate(16deg);
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 49.43px;
+}
+
+.header__item_brackets {
+  height: 43px;
+  -webkit-transform: translate(-57px, -666px) rotate(28deg);
+  transform: translate(-57px, -666px) rotate(28deg);
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 38.97px;
+}
+
+.price-html-teg__item {
+  display: inline-block;
+  color: #fff;
+}
+
+.price__item_div {
+  -webkit-transform: translate(1426px, -27px) rotate(20deg);
+  transform: translate(1426px, -27px) rotate(20deg);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 31.75px;
+}
+
+.price__item_brackets {
+  -webkit-transform: translate(1595px, -59px) rotate(-18deg);
+  transform: translate(1595px, -59px) rotate(-18deg);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 42.86px;
+}
+
+.price__item_brackets1 {
+  -webkit-transform: translate(43px, -255px) rotate(27deg);
+  transform: translate(43px, -255px) rotate(27deg);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 42.86px;
+}
+
+.price__item_grid {
+  -webkit-transform: translate(113px, -59px) rotate(17deg);
+  transform: translate(113px, -59px) rotate(17deg);
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 49.43px;
+}
+
+.price__item_close {
+  -webkit-transform: translate(1440px, -249px) rotate(-23deg);
+  transform: translate(1440px, -249px) rotate(-23deg);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 33.97px;
+}
+
+/*=====  End of Всплывающие HTML Теги  ======*/
+
+
+/*=============================================
+=            Кнопка навигации мобильного меню            =
+=============================================*/
+.burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.burger__btn {
+  display: block;
+  width: 45px;
+  height: 32px;
+  background-color: #fff;
+  position: relative;
+}
+
+.burger__btn span,
+.burger__btn span::before,
+.burger__btn span::after {
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  left: 50%;
+  margin-left: -23px;
+  width: 46px;
+  height: 5px;
+  background-color: #6c6b86;
+  background-image: linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+  cursor: pointer;
+}
+
+.burger__btn span::before,
+.burger__btn span::after {
+  content: '';
+  display: block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.burger__btn span::before {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.burger__btn span::after {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.burger__btn_active span {
+  height: 0;
+}
+
+.burger__btn_active span:before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  width: 45px;
+}
+
+.burger__btn_active span:after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 45px;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+/**=====  End of *Кнопка навигации мобильного меню  ======*/
+
+
+/**
+ *
+ * *Настройка Слайдера 
+ *
+ */
+.slick-dots {
+  display: inline-flex;
+  margin: 0 auto;
+  margin-top: 102px;
+}
+
+.slick-dots li button {
+  display: block;
+  margin-right: 30px;
+  width: 18px;
+  height: 18px;
+  background-color: #ebebeb;
+  border-radius: 100%;
+  text-indent: -9999px;
+}
+
+li.slick-active button {
+  background-color: #ff4e2e;
+}
+
+
+
+/*=============================================
+=            Pop-up menu            =
+=============================================*/
+.stop-scrollong {
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.modal_active {
+  display: block;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #ebebeb;
+  border-radius: 20px;
+}
+
+.modal-header {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.madal-header__heading {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.close {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #000000;
+  transform-origin: center;
+  transform: rotate(45deg);
+  
+}
+.close::after {
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: block;
+  background-color: #000000;
+  transform: rotate(90deg);
+}
+
+.modal-body {
+  width: 100%;
+}
+
+.modal-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.modal-form__phone {
+  width: 100%;
+  height: 40px;
+    font-size: 16px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.modal-form__mail {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.modal-form__btn {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #f26522;
+  outline: none;
+  border: none;
+}
+
+/*=====  End of Pop-up menu  ======*/
+
