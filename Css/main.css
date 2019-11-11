@@ -700,7 +700,8 @@ a[href^="mailto:"]:hover {
 }
 
 .swiper-pagination {
-  left: 44%;
+  width: 100%;
+  margin: 0 auto;
   bottom: -118px;
 }
 

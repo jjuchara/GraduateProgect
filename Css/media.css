@@ -134,7 +134,7 @@
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 924px) {
 
   .container {
     align-items: flex-start;
@@ -193,7 +193,11 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
+
+  body {
+    background-color: #fff;
+  }
 
   .button_fill {
     width: 280px;
@@ -213,7 +217,7 @@
   }
 
   .bg-wrapper {
-    margin-top: -121px;
+    margin-top: 20px;
   }
 
   .developer-wrapper {
@@ -255,8 +259,13 @@
   }
 
   .skills__item-wrapper {
-    max-width: 75%;
+    max-width: 100%;
+    transform: translate(0, 0);
   }
+
+.cases .heading {
+  padding-top: 0;
+}
 
   .price__title {
     font-size: 28px;
@@ -264,10 +273,6 @@
 
   .price__desc {
     font-size: 15px;
-  }
-
-  .price__desc-text {
-    width: 50%;
   }
 
   .footer {
@@ -357,5 +362,12 @@
     width: 24px;
     transform-origin: center;
   }
+}
 
+@media (max-width: 480px) {
+  .bg-wrapper {
+    background-size: 100%;
+  }
+
+  
 }
