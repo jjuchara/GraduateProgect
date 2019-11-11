@@ -21,7 +21,7 @@ $(document).ready(function(){
           clickable: 'true'
         },
       },
-      1024: {
+      1025: {
         slidesPerView: 3,
         spaceBetween: 20,
         navigation: {

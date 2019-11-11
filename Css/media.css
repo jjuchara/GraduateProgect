@@ -3,11 +3,11 @@
   .container {
     align-items: flex-start;
     max-width: 985px;
-    padding: 0 20px;
   }
 
   .heading {
     padding-top: 83px;
+    transform: translateX(-10px);
   }
 
   .cases .heading {
@@ -28,7 +28,8 @@
   }
 
   .bg-wrapper {
-    background-position: 169% 100%;
+    background: url(/img/bg-1024.png) no-repeat;
+    background-position: 100% 100%;
     transition: 0.3s;
   }
 
@@ -65,7 +66,6 @@
   .skills__item-wrapper {
     max-width: 85%;
     transform: translate(74px, -8px);
-    
     margin-bottom: 2px;
   }
 
@@ -73,22 +73,39 @@
     justify-content: space-around;
   }
 
+  .skills__item:first-child {
+    transform: translate(0, 0);
+}
+
   .skills__item {
     margin-bottom: 82px;
+    transform: translate(0, 0);
+  }
+
+  .cases .heading {
+    transform: translateX(0px);
+  }
+
+  .case__img {
+    margin-bottom: 14px;
+}
+
+  .case__desc {
+    font-size: 25px;
   }
 
   .case__button {
-    margin-top: 277px;
+    margin-top: 215px;
   }
 
   .price__title {
     width: 100%;
     margin-left: 0;
-    margin-bottom: 33px;
   }
 
   .price__desc {
     margin-left: 0;
+    padding-bottom: 86px;
   }
 
   .price__desc-text {

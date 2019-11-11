@@ -50,6 +50,7 @@ button:focus {
 .container {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .flex-container {
@@ -699,8 +700,8 @@ a[href^="mailto:"]:hover {
 }
 
 .swiper-pagination {
-  left: 50%;
-  bottom: -30px;
+  left: 44%;
+  bottom: -118px;
 }
 
 .swiper-pagination-bullet {
