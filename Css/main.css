@@ -190,7 +190,15 @@ header {
 }
 
 .skills__item-wrapper {
-  margin-bottom: 85px;
+  margin-bottom: 83px;
+}
+
+.skills__item:first-child {
+  transform: translate(-10px, -8px);
+}
+
+.skills__item {
+  transform: translate(18px, -11px);
 }
 
 .skills__img {
@@ -256,7 +264,7 @@ header {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .price__desc-text {
