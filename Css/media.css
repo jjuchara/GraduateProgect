@@ -30,7 +30,6 @@
   .bg-wrapper {
     background: url(/img/bg-1024.png) no-repeat;
     background-position: 100% 100%;
-    transition: 0.3s;
   }
 
   .developer {
@@ -337,7 +336,6 @@
   .burger__btn span::after {
     content: '';
     display: block;
-    transition: 0.2s;
   }
 
   .burger__btn span::before {
@@ -366,8 +364,12 @@
 
 @media (max-width: 480px) {
   .bg-wrapper {
-    background-size: 100%;
+    background-size: contain;
     transform: translateY(-107px);
+  }
+
+  .mob-menu-wrapper {
+    z-index: 999;
   }
 
   .mob-btn {
@@ -440,6 +442,11 @@
   margin-bottom: 11px;
 }
 
+.swiper-container img {
+  width: 100%;
+  height: 251px;
+}
+
 .swiper-pagination {
   bottom: -57px;
   transform: translateX(6px);
@@ -506,6 +513,15 @@
   .bg-wrapper {
     background: url(/img/bg-320.png) no-repeat;
     background-position: 100% 100%;
+  }
 
+  .footer-rights{
+    margin-top: 42px;
+  }
+
+  .footer-rights__text{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 18px;
   }
 }

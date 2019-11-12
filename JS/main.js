@@ -32,7 +32,12 @@ $(document).ready(function(){
     }
   })
   
-  
+  /*----------  Инициализация мобильного меню  ----------*/
+  $('.burger__btn').click(function(e){
+    e.preventDefault();
+    $('.nav').slideToggle();
+    $(this).toggleClass('burger__btn_active');
+});
 
 // !Сделать чтобы при нажатии на ссылку меню сворачивалось и убирался класс
 
@@ -46,12 +51,7 @@ $(document).ready(function(){
 //   $('body').unbind('touchmove');
 // }
 
-  $('.burger__btn').click(function(e){
-    e.preventDefault();
-    $('.nav').slideToggle();
-    $(this).toggleClass('burger__btn_active');
-    event.stopPropagation(); 
-});
+ 
 
 // $(document).click(function (e){
 //   var div = $(".nav")
@@ -63,18 +63,18 @@ $(document).ready(function(){
 
 // });
 
-$(window).on('load', function () {
-  $('.html-teg__item, .price-html-teg__item').animate({
-    top: '65%',
-    left: '10%',
-    opacity: '1'
-  }, 1500);
-});
+// $(window).on('load', function () {
+//   $('.html-teg__item, .price-html-teg__item').animate({
+//     top: '65%',
+//     left: '10%',
+//     opacity: '1'
+//   }, 1500);
+// });
 
-$('.button_empty').on('click', function(e){
-  e.preventDefault
-  $('.modal').addClass('modal_active', disableScroll);
-});
+// $('.button_empty').on('click', function(e){
+//   e.preventDefault
+//   $('.modal').addClass('modal_active', disableScroll);
+// });
 
 // $('.close-btn').on('click', function(){
 //   $(this).parents('.modal').removeClass('modal_active');

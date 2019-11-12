@@ -655,7 +655,7 @@ a[href^="mailto:"]:hover {
 
 .swiper-container img {
   width: 100%;
-  height: 251px;
+  height: auto;
 }
 
 .prev {
