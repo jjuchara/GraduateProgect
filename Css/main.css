@@ -727,13 +727,13 @@ a[href^="mailto:"]:hover {
   overflow: hidden;
 }
 
-.modal {
+.modal-call, .modal-more {
   display: none;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 99;
   overflow: hidden;
 }
 
@@ -748,7 +748,20 @@ a[href^="mailto:"]:hover {
   align-items: center;
   justify-content: center;
   width: 300px;
-  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #ebebeb;
+  border-radius: 20px;
+}
+
+.modal-more .modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 320px;
   margin: 0 auto;
   margin-top: 50px;
   background-color: #ebebeb;
@@ -756,13 +769,14 @@ a[href^="mailto:"]:hover {
 }
 
 .modal-header {
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 25px;
+  font-size: 22px;
 }
 
 .madal-header__heading {
-  margin-top: 20px;
+  margin-top: 25px;
   width: 100%;
+  font-size: 22px;
 }
 
 .close-btn {
@@ -807,18 +821,9 @@ a[href^="mailto:"]:hover {
   padding: 0 20px;
 }
 
-.modal-form__phone {
-  width: 100%;
-  height: 40px;
-    font-size: 16px;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  border-radius: 10px;
-  outline: none;
-  border: none;
-}
-
-.modal-form__mail {
+.modal-form__phone, 
+.modal-form__mail, 
+.modal-form__name  {
   width: 100%;
   height: 40px;
   font-size: 16px;
@@ -832,6 +837,7 @@ a[href^="mailto:"]:hover {
 .modal-form__btn {
   width: 100%;
   height: 40px;
+  margin-bottom: 25px;
   font-size: 16px;
   border-radius: 10px;
   background-color: #f26522;
