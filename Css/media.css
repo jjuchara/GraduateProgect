@@ -3,6 +3,7 @@
   .container {
     align-items: flex-start;
     max-width: 985px;
+    padding: 0 20px;
   }
 
   .heading {
@@ -369,7 +370,7 @@
   }
 
   .mob-menu-wrapper {
-    z-index: 999;
+    z-index: 9;
   }
 
   .mob-btn {
@@ -414,9 +415,10 @@
 }
 
 .heading {
-  margin-top: 38px;
+  margin-top: 121px;
   margin-bottom: 47px;
   transform: translateX(0px);
+  padding-top: 0;
 }
 
 .skills__item {

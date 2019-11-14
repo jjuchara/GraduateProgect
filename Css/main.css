@@ -50,7 +50,6 @@ button:focus {
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .flex-container {
@@ -626,6 +625,7 @@ a[href^="mailto:"]:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
   background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
   cursor: pointer;
+  z-index: 9;
 }
 
 .mob-btn span {
@@ -637,6 +637,7 @@ a[href^="mailto:"]:hover {
   background-color: #fff;
   -webkit-transform: translate(1px);
   transform: translate(1px);
+  z-index: 9;
 }
 
 .fa-phone {
@@ -722,10 +723,10 @@ a[href^="mailto:"]:hover {
 }
 
 /*----------  Pop-up menu   ----------*/
-.stop-scrollong {
+.stop-scrolling {
   width: 100%;
-  overflow: hidden;
-}
+	overflow-y: hidden;
+  }
 
 .modal-call, .modal-more {
   display: none;
@@ -747,7 +748,7 @@ a[href^="mailto:"]:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 0;
   margin: 0 auto;
   margin-top: 50px;
   background-color: #ebebeb;
