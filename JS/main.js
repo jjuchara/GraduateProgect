@@ -114,17 +114,12 @@ $('.button_fill').on('click', function(e){
   
 
 
-
-
-
-// $(window).on('load', function () {
-//   $('.html-teg__item, .price-html-teg__item').animate({
-//     top: '65%',
-//     left: '10%',
-//     opacity: '1'
-//   }, 1500);
-// });
-
-// 
+  $(window).on('load', function () {
+    $('.header__item_div').addClass('header__item_div_onload')
+    $('.header__item_div1').addClass('header__item_div1_onload')
+    $('.header__item_grid').addClass('header__item_grid_onload')
+    $('.header__item_brackets').addClass('header__item_brackets_onload')
+    $('.header__item_close').addClass('header__item_close_onload')
+  });
 
 });

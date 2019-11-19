@@ -122,11 +122,13 @@ header {
   font-weight: 400;
   margin-right: 34px;
   cursor: pointer;
+  transition: color 0.3s
 }
 
 .nav ul li a:hover {
   color: #fc557c;
   text-decoration: underline;
+  transition: color 0.3s;
 }
 
 .header-contact__phone {
@@ -295,9 +297,14 @@ footer {
   margin-bottom: 15px;
 }
 
+footer ul li a {
+  transition: color 0.3s
+}
+
 footer ul li a:hover {
   color: #fc557c;
   text-decoration: underline;
+  transition: color 0.3s
 }
 
 .contacts-wrapper {
@@ -328,11 +335,13 @@ footer ul li a:hover {
 a[href^="tel:"] {
   text-decoration: none;
   color: #000000;
+  transition: color 0.3s
 }
 
 a[href^="tel:"]:hover {
   text-decoration: none;
   color: #fc557c;
+  transition: color 0.3s
 }
 
 .footer-mail::before {
@@ -359,11 +368,13 @@ a[href^="tel:"]:hover {
 a[href^="mailto:"] {
   text-decoration: none;
   color: #000000;
+  transition: color 0.3s
 }
 
 a[href^="mailto:"]:hover {
   text-decoration: none;
   color: #fc557c;
+  transition: color 0.3s
 }
 
 .social-icon-wrapper {
@@ -438,7 +449,9 @@ a[href^="mailto:"]:hover {
 
 /*----------  Всплывающие HTML Теги  ----------*/
 .html-tegs {
+  display: inline-block;
   width: 100%;
+  height: 0;
   transition: 2s;
   transition-delay: 1s;
 }
@@ -451,55 +464,64 @@ a[href^="mailto:"]:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #6055c4;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
 }
 
 .header__item_close {
-  -webkit-transform: translate(186px, -127px) rotate(-21deg);
-  transform: translate(186px, -127px) rotate(-21deg);
+  transform: translate(0vw, 0vh) rotate(-21deg);
   font-size: 38px;
   font-weight: 700;
   line-height: 33.97px;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.header__item_close_onload {
+  transform: translate(-14vw, 44vh) rotate(-21deg);
+  transition: 1s ease;
 }
 
 .header__item_div {
-  -webkit-transform: translate(765px, -254px) rotate(20deg);
-  transform: translate(765px, -254px) rotate(20deg);
+  transform: translate(0vw, 0vh)rotate(20deg);
   font-size: 35px;
   font-weight: 700;
   line-height: 31.75px;
 }
 
+.header__item_div_onload {
+  transform: translate(27vw, 34vh)rotate(20deg);
+  transition: 1s ease;
+}
+
 .header__item_div1 {
-  -webkit-transform: translate(594px, -633px) rotate(-16deg);
-  transform: translate(594px, -633px) rotate(-16deg);
+  transform: translate(0vw, 0vh) rotate(-16deg); 
   font-size: 29px;
   font-weight: 700;
   line-height: 26.07px;
 }
 
+.header__item_div1_onload {
+  transform: translate(15vw, 7vh) rotate(-16deg);
+  transition: 1s ease; 
+}
+
 .header__item_grid {
-  -webkit-transform: translate(55px, -437px) rotate(16deg);
-  transform: translate(55px, -437px) rotate(16deg);
+  transform: translate(0vw, 0vh) rotate(16deg);
   font-size: 55px;
   font-weight: 700;
   line-height: 49.43px;
 }
+.header__item_grid_onload {
+  transform: translate(-15vw, 22vh) rotate(16deg);
+  transition: 1s ease; 
+}
 
 .header__item_brackets {
-  height: 43px;
-  -webkit-transform: translate(-57px, -666px) rotate(28deg);
-  transform: translate(-57px, -666px) rotate(28deg);
+  transform: translate(0vw, 0vh) rotate(28deg);
   font-size: 43px;
+  height: 43px;
   font-weight: 700;
   line-height: 38.97px;
+}
+.header__item_brackets_onload {
+  transform: translate(-23vw, 3vh) rotate(28deg);
+  transition: 1s ease; 
 }
 
 .price-html-teg__item {
@@ -508,43 +530,185 @@ a[href^="mailto:"]:hover {
 }
 
 .price__item_div {
-  -webkit-transform: translate(1426px, -27px) rotate(20deg);
-  transform: translate(1426px, -27px) rotate(20deg);
+  transform: translate(62vw, -4vh) rotate(20deg);
   font-size: 35px;
   font-weight: 700;
   line-height: 31.75px;
 }
 
 .price__item_brackets {
-  -webkit-transform: translate(1595px, -59px) rotate(-18deg);
-  transform: translate(1595px, -59px) rotate(-18deg);
+  transform: translate(-20vw, -24vh) rotate(-18deg);
   font-size: 48px;
   font-weight: 700;
   line-height: 42.86px;
 }
 
 .price__item_brackets1 {
-  -webkit-transform: translate(43px, -255px) rotate(27deg);
-  transform: translate(43px, -255px) rotate(27deg);
+  transform: translate(68vw, -10vh) rotate(27deg);
   font-size: 48px;
   font-weight: 700;
   line-height: 42.86px;
 }
 
 .price__item_grid {
-  -webkit-transform: translate(113px, -59px) rotate(17deg);
-  transform: translate(113px, -59px) rotate(17deg);
+  transform: translate(-9vw, -4vh) rotate(17deg);
   font-size: 55px;
   font-weight: 700;
   line-height: 49.43px;
 }
 
 .price__item_close {
-  -webkit-transform: translate(1440px, -249px) rotate(-23deg);
-  transform: translate(1440px, -249px) rotate(-23deg);
+  transform: translate(52vw, -24vh) rotate(-23deg);
   font-size: 38px;
   font-weight: 700;
   line-height: 33.97px;
+}
+
+@media (max-width: 1460px) {
+  .header__item_close_onload {
+    transform: translate(-11vw, 69vh) rotate(-21deg);
+  }
+  .header__item_div_onload {
+    transform: translate(20vw, 59vh)rotate(20deg);
+  }
+  .header__item_div1_onload {
+    transform: translate(33vw, 7vh) rotate(-16deg);
+  }
+  .header__item_grid_onload {
+    transform: translate(8vw, 11vh) rotate(16deg);
+  }
+  .header__item_brackets_onload {
+    transform: translate(-13vw, 3vh) rotate(28deg);
+  }
+  .price__item_close {
+    transform: translate(66vw, -24vh) rotate(-23deg);
+  }
+  .price__item_brackets {
+    transform: translate(-18vw, -24vh) rotate(-18deg);
+  }
+}
+@media (max-width: 1140px) {
+  .header__item_close_onload {
+    transform: translate(9vw, 76vh) rotate(-21deg);
+  }
+  .header__item_div_onload {
+    transform: translate(37vw, 11vh)rotate(20deg);
+  }
+  .header__item_div1_onload {
+    transform: translate(75vw, 4vh) rotate(-16deg);
+  }
+  .header__item_grid_onload {
+    transform: translate(-11vw, 81vh) rotate(16deg);
+  }
+  .price__item_brackets {
+    transform: translate(6vw, -51vh) rotate(-18deg);
+  }
+  .price__item_close {
+    transform: translate(40vw, -51vh) rotate(-23deg);
+  }
+  .price__item_div {
+    transform: translate(39vw, -9vh) rotate(20deg);
+  }
+}
+@media (max-width: 920px) {
+  .header__item_close_onload {
+    transform: translate(36vw, 27vh) rotate(-21deg);
+  }
+}
+@media (max-width: 768px) {
+  .header__item_close_onload {
+    transform: translate(3vw, -3vh) rotate(-21deg)
+  }
+  .header__item_div_onload {
+    transform: translate(14vw, 17vh)rotate(20deg);
+  }
+  .header__item_div1_onload {
+    transform: translate(52vw, 1vh) rotate(-16deg);
+  }
+  .header__item_grid_onload {
+    transform: translate(-10vw, 34vh) rotate(16deg);
+  }
+  .header__item_brackets_onload {
+    transform: translate(-13vw, 3vh) rotate(28deg);
+  }
+  .price__item_div {
+    font-size: 23px;
+  }
+  .price__item_brackets {
+    transform: translate(-2vw, -43vh) rotate(-18deg);
+    font-size: 23px;
+  }
+  .price__item_brackets1 {
+    font-size: 23px;
+  }
+  .price__item_grid {
+    font-size: 23px;
+  }
+  .price__item_close {
+    transform: translate(52vw, -42vh) rotate(-23deg);
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 570px) {
+  .header__item_close_onload {
+    transform: translate(32vw, 1vh) rotate(-21deg);
+    font-size: 22px;
+  }
+  .header__item_div_onload {
+    transform: translate(6vw, 17vh)rotate(20deg);
+    font-size: 22px;
+  }
+  .header__item_div1_onload {
+    display: none;
+  }
+  .header__item_grid_onload {
+    transform: translate(20vw, 7vh) rotate(16deg);
+    font-size: 22px;
+  }
+  .header__item_brackets_onload {
+    transform: translate(-5vw, 1vh) rotate(28deg);
+    font-size: 22px;
+  }
+  .price__item_div {
+    display: none;
+  }
+  .price__item_brackets {
+    display: none;
+  }
+  .price__item_brackets1 {
+    display: none;
+  }
+  .price__item_grid {
+    display: none;
+  }
+  .price__item_close {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__item_close_onload {
+    transform: translate(32vw, 1vh) rotate(-21deg);
+    font-size: 22px;
+  }
+  .header__item_div_onload {
+    transform: translate(6vw, 17vh)rotate(20deg);
+    font-size: 22px;
+  }
+  .header__item_div1_onload {
+    display: none;
+    transform: translate(52vw, 1vh) rotate(-16deg);
+    font-size: 22px;
+  }
+  .header__item_grid_onload {
+    transform: translate(20vw, 7vh) rotate(16deg);
+    font-size: 22px;
+  }
+  .header__item_brackets_onload {
+    transform: translate(-5vw, 1vh) rotate(28deg);
+    font-size: 22px;
+  }
 }
 
 /*----------  Бургер ----------*/

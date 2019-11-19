@@ -22,6 +22,7 @@
   .menu {
     display: block;
     margin-top: 20px;
+    box-shadow: 0 5 10px;
   }
 
   .menu__item {
