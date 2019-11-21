@@ -112,9 +112,9 @@ $('.button_fill').on('click', function(e){
         $(this).fadeOut(600, enableScroll(), modalCallOff(), modalMoreOff());
   });
   
-
-
+/*----------  HTML тэги  ----------*/
   $(window).on('load', function () {
+    $('.html-teg__item').css('opacity', '1');
     $('.header__item_div').addClass('header__item_div_onload')
     $('.header__item_div1').addClass('header__item_div1_onload')
     $('.header__item_grid').addClass('header__item_grid_onload')

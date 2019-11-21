@@ -464,6 +464,7 @@ a[href^="mailto:"]:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #6055c4;
+  opacity: 0;
 }
 
 .header__item_close {
