@@ -38,7 +38,7 @@
       </div>
       <div class="modal-body">
         <form action="#" class="modal-form">
-          <input class="modal-form__phone" type="text" placeholder="Введите Ваш номер телефона">
+          <input class="modal-form__phone" type="tel" placeholder="Введите Ваш номер телефона">
           <input class="modal-form__mail" type="email" placeholder="Введите Ваш email">
           <input class="modal-form__btn" type="submit" value="Отправить">
         </form>
@@ -54,7 +54,7 @@
       <div class="modal-body">
         <form action="#" class="modal-form">
           <input class="modal-form__name" type="text" placeholder="Введите Ваше ФИО" name="phone">
-          <input class="modal-form__phone" type="text" placeholder="Введите Ваш номер телефона" name="phone">
+          <input class="modal-form__phone" type="tel" placeholder="Введите Ваш номер телефона" name="phone">
           <input class="modal-form__mail" type="email" placeholder="Введите Ваш email" name="mail">
           <input class="modal-form__btn" type="submit" value="Отправить">
         </form>
@@ -79,8 +79,7 @@
       </div>
       <div class="header-contact flex-container">
         <a href="tel:+74999955577" class="header-contact__phone">+7 (499) 995-55-77</a>
-        <button class="header-contact__button button_empty">Заказать звонок</button>
-        <button class="mob-btn"><span><i class="fa fa-phone fa-2x" aria-hidden="true"></i></span></button>
+        <button class="header-contact__button button_empty"> <span>Заказать звонок<i class="fa fa-phone fa-2x" aria-hidden="true"></i></span></button>
       </div>
       <div class="html-tegs">
         <span class="html-teg__item header__item_div">&lt;div&gt; </span>
@@ -175,8 +174,8 @@
     </section>
     <section class="price" id="price">
       <div class="container">
-        <h3 class="price__title">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего
-          за&nbsp;4&nbsp;часа.*</h3>
+        <h2 class="price__title">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего
+          за&nbsp;4&nbsp;часа.*</h2>
         <div class="price__desc">
           <span class="price__desc-text">* Срок и стоимость могут отличаться от заявленных и рассчитываются
             индивидуально, в зависимости от сложности задач.</span>
@@ -193,11 +192,13 @@
   </main>
   <footer class="footer">
     <div class="container flex-container">
-      <ul class="footer-nav">
-        <li class="footer-nav__items"><a href="#">Услуги</a></li>
-        <li class="footer-nav__items"><a href="#">Портфолио</a></li>
-        <li class="footer-nav__items"><a href="#">Стоимость</a></li>
-      </ul>
+      <nav class="nav-wrapper">
+        <ul class="footer-nav">
+          <li class="footer-nav__items"><a href="#">Услуги</a></li>
+          <li class="footer-nav__items"><a href="#">Портфолио</a></li>
+          <li class="footer-nav__items"><a href="#">Стоимость</a></li>
+        </ul>
+      </nav>
       <div class="contacts-wrapper">
         <a class="footer-phone" href="tel:+74999957755">+7 (499) 995-77-55</a>
         <a class="footer-mail" href="mailto:dmitry@alekseev.com">dmitry@alekseev.com</a>
@@ -205,10 +206,10 @@
       <div class="social-icon-wrapper">
         <button class="button_empty footer-btn">Заказать звонок</button>
         <ul class="socials-icons">
-          <li class="socials-icons_vk"><a href="http://vk.com/jjuchara" target="_blank"></a></li>
-          <li class="socials-icons_fb"><a href="https://www.facebook.com/jjuchara" target="_blank"></a></li>
-          <li class="socials-icons_tw"><a href="https://twitter.com" target="_blank"></a></li>
-          <li class="socials-icons_ig"><a href="https://www.instagram.com/jjuchara/" target="_blank"></a></li>
+          <li class=" sprite socials-icons_vk"><a href="http://vk.com/jjuchara" target="_blank"></a></li>
+          <li class="sprite socials-icons_fb"><a href="https://www.facebook.com/jjuchara" target="_blank"></a></li>
+          <li class="sprite socials-icons_tw"><a href="https://twitter.com" target="_blank"></a></li>
+          <li class="sprite socials-icons_ig"><a href="https://www.instagram.com/jjuchara/" target="_blank"></a></li>
         </ul>
       </div>
     </div>
