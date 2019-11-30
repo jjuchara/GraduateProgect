@@ -698,8 +698,8 @@ a[href^="mailto:"]:hover {
 }
 @media (max-width: 1140px) {
   .header__item_close_onload {
-    -webkit-transform: translate(9vw, 534px) rotate(-21deg);
-            transform: translate(9vw, 534px) rotate(-21deg);
+    -webkit-transform: translate(-11vw, 190px) rotate(-21deg);
+    transform: translate(-11vw, 190px) rotate(-21deg);
   }
   .header__item_div_onload {
     -webkit-transform: translate(37vw, 11vh)rotate(20deg);
@@ -729,10 +729,10 @@ a[href^="mailto:"]:hover {
   }
 }
 @media (max-width: 925px) {
-  .header__item_close_onload {
+  /* .header__item_close_onload {
     -webkit-transform: translate(36vw, 27vh) rotate(-21deg);
             transform: translate(36vw, 27vh) rotate(-21deg);
-  }
+  } */
   .price__item_brackets {
     -webkit-transform: translate(6vw, -330px) rotate(-18deg);
             transform: translate(6vw, -330px) rotate(-18deg);

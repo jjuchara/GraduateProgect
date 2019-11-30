@@ -34,7 +34,7 @@
   }
 
   .bg-wrapper {
-    background: url(/img/bg-1024.png) no-repeat;
+    background: url(../img/bg-1024.png) no-repeat;
     background-position: 100% 100%;
   }
 
@@ -146,7 +146,7 @@
   }
 }
 
-@media screen and (max-width: 924px) {
+@media screen and (max-width: 940px) {
 
   .container {
     -webkit-box-align: start;
@@ -156,6 +156,7 @@
 
   .bg-wrapper {
     margin-top: -50px;
+    background-size: 80%;
   }
 
   .header-contact__button {
@@ -271,6 +272,7 @@
 
   .bg-wrapper {
     margin-top: 20px;
+    background-size: 88%;
   }
 
   .developer-wrapper {
@@ -283,7 +285,7 @@
   }
 
   .developer__name {
-    font-size: 30px;
+    font-size: 29px;
     margin-bottom: 13px;
     text-align: center;
   }
@@ -297,8 +299,10 @@
   }
 
   .developer-img {
-    width: 224px;
-    height: 334px;
+    width: 50%;
+    height: auto;
+    -webkit-transform: translateY(-13px);
+            transform: translateY(-13px);
   }
 
   .heading {
@@ -436,7 +440,7 @@
     background-size: contain;
     -webkit-transform: translateY(-107px);
     transform: translateY(-107px);
-    background-size: 88%;
+    background-size: 80%;
   }
 
   .mob-menu-wrapper {
@@ -473,9 +477,8 @@
   }
 
   .developer-img {
-    -webkit-transform: translate(30px, -57px);
-    transform: translate(30px, -57px);
-    margin-bottom: -1px;
+    -webkit-transform: translate(30px, -13px);
+    transform: translate(30px, -13px);
   }
 
   .developer {
@@ -593,7 +596,7 @@
 
 @media (max-width: 320px) {
   .bg-wrapper {
-    background: url(/img/bg-320.png) no-repeat;
+    background: url(../img/bg-320.png) no-repeat;
     background-position: 100% 100%;
   }
 
