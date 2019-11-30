@@ -714,18 +714,31 @@ a[href^="mailto:"]:hover {
             transform: translate(-11vw, 527px) rotate(16deg);
   }
   .price__item_brackets {
-    -webkit-transform: translate(6vw, -355px) rotate(-18deg);
-            transform: translate(6vw, -355px) rotate(-18deg);
+    -webkit-transform: translate(-4vw, -310px) rotate(-18deg);
+            transform: translate(-4vw, -310px) rotate(-18deg);
     font-size: 30px;
   }
+  .price__item_brackets1 {
+    -webkit-transform: translate(68vw, -10vh) rotate(27deg);
+    transform: translate(71vw, -6vh) rotate(27deg);
+    font-size: 48px;
+    font-weight: 700;
+}
   .price__item_close {
-    -webkit-transform: translate(40vw, -357px) rotate(-23deg);
-            transform: translate(40vw, -357px) rotate(-23deg);
+    -webkit-transform: translate(40vw, -297px) rotate(-23deg);
+            transform: translate(40vw, -297px) rotate(-23deg);
     font-size: 30px;
+  }
+  .price__item_grid {
+    -webkit-transform: translate(-9vw, -4vh) rotate(17deg);
+    transform: translate(-9vw, -2vh) rotate(17deg);
+    font-size: 35px;
+    font-weight: 700;
   }
   .price__item_div {
-    -webkit-transform: translate(39vw, -6vh) rotate(20deg);
-            transform: translate(39vw, -6vh) rotate(20deg);
+    -webkit-transform: translate(39vw, -3vh) rotate(20deg);
+            transform: translate(39vw, -3vh) rotate(20deg);
+            font-size: 35px;
   }
 }
 @media (max-width: 925px) {
