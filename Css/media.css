@@ -440,6 +440,10 @@
 }
 
 @media (max-width: 480px) {
+.button_fill {
+  font-size: 16px;
+}
+
   .bg-wrapper {
     background-size: contain;
     -webkit-transform: translateY(-107px);
@@ -450,7 +454,6 @@
   .mob-menu-wrapper {
     z-index: 9;
   }
-
 
   .header-contact__button {
     width: 26px;
@@ -485,21 +488,28 @@
     transform: translate(30px, -13px);
   }
 
+  .developer-wrapper {
+  -webkit-transform: translateY(227px);
+  transform: translateY(227px);
+  }
+
   .developer {
-    -webkit-transform: translateY(-39px);
-    transform: translateY(-39px);
+    -webkit-transform: translateY(-46px);
+    transform: translateY(-46px);
   }
 
   .developer__desc {
     width: 212px;
+    margin-bottom: 24px;
+    line-height: 1.4;
   }
 
   .skills {
-    padding-bottom: 99px;
+    padding-bottom: 96px;
   }
 
   .heading {
-    margin-top: 121px;
+    margin-top: 78px;
     margin-bottom: 47px;
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
@@ -507,11 +517,12 @@
   }
 
   .skills__item {
-    margin-bottom: 56px;
+    margin-bottom: 58px;
   }
 
   .img-desc {
     font-size: 16px;
+    line-height: 1.3;
   }
 
   .skills__desc {
@@ -520,6 +531,10 @@
 
   .skills__img {
     margin-bottom: 16px;
+  }
+
+  .cases .heading {
+    margin-bottom: 49px;
   }
 
   .case__desc {
@@ -560,11 +575,11 @@
 
   .price__desc {
     line-height: 30px;
-    padding-bottom: 43px;
+    padding-bottom: 27px;
   }
 
   .price__desc-text {
-    width: 100%;
+    width: 108%;
   }
 
   .footer {
@@ -573,6 +588,10 @@
 
   .footer-nav a {
     font-size: 16px;
+  }
+
+  .footer-nav__items {
+    margin-bottom: 16px;
   }
 
   .footer-nav__items:last-child {
@@ -593,6 +612,10 @@
     height: 55px;
   }
 
+  .contacts-wrapper {
+    margin-top: 7px;
+  }
+
   .socials-icons {
     margin-top: 48px;
   }
@@ -602,10 +625,21 @@
   .bg-wrapper {
     background: url(../img/bg-320.png) no-repeat;
     background-position: 100% 100%;
+    -webkit-transform: translateY(-152px);
+            transform: translateY(-152px);
+  }
+
+.developer-wrapper {
+  -webkit-transform: translateY(228px);
+          transform: translateY(228px);
+}
+
+  .developer-img {
+    width: 80%;
   }
 
   .footer-rights {
-    margin-top: 42px;
+    margin-top: 50px;
   }
 
   .footer-rights__text {
