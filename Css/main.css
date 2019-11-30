@@ -175,10 +175,10 @@ header {
 .developer {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   margin-right: -40px;
   -webkit-transform: translateY(-44px);
-          transform: translateY(-44px);
+  transform: translateY(-44px);
 }
 
 .developer__name {
@@ -220,12 +220,12 @@ header {
 
 .skills__item:first-child {
   -webkit-transform: translate(-10px, -8px);
-          transform: translate(-10px, -8px);
+  transform: translate(-10px, -8px);
 }
 
 .skills__item {
   -webkit-transform: translate(18px, -11px);
-          transform: translate(18px, -11px);
+  transform: translate(18px, -11px);
 }
 
 .skills__img {
@@ -267,7 +267,7 @@ header {
 .case__desc {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .case__button {
@@ -353,7 +353,6 @@ footer ul li a:hover {
   content: "\f095";
   padding-right: 20px;
   background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
-  background: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -388,7 +387,6 @@ a[href^="tel:"]:hover {
   content: "\f0e0";
   padding-right: 20px;
   background: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
-  background: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -426,7 +424,7 @@ a[href^="mailto:"]:hover {
   width: 100%;
   padding-left: 0;
   margin-top: 29px;
-  
+
 }
 
 .socials-icons li {
@@ -440,7 +438,7 @@ a[href^="mailto:"]:hover {
   background-repeat: no-repeat;
 }
 
-.socials-icons_vk  {
+.socials-icons_vk {
   width: 35px;
   height: 21px;
   background-position: -105px -5px;
@@ -451,7 +449,7 @@ a[href^="mailto:"]:hover {
 
 .socials-icons_vk:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -467,7 +465,7 @@ a[href^="mailto:"]:hover {
 
 .socials-icons_fb:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -483,7 +481,7 @@ a[href^="mailto:"]:hover {
 
 .socials-icons_tw:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -495,11 +493,11 @@ a[href^="mailto:"]:hover {
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-} 
+}
 
 .socials-icons_ig:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -533,13 +531,12 @@ a[href^="mailto:"]:hover {
   -webkit-transition: 2s;
   transition: 2s;
   -webkit-transition-delay: 1s;
-          transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .html-teg__item {
   display: inline-block;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
-  background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -549,21 +546,22 @@ a[href^="mailto:"]:hover {
 
 .header__item_close {
   -webkit-transform: translate(0vw, 0vh) rotate(-21deg);
-          transform: translate(0vw, 0vh) rotate(-21deg);
+  transform: translate(0vw, 0vh) rotate(-21deg);
   font-size: 38px;
   font-weight: 700;
   line-height: 33.97px;
 }
+
 .header__item_close_onload {
   -webkit-transform: translate(-14vw, 0px) rotate(-21deg);
-          transform: translate(-14vw, 0px) rotate(-21deg);
+  transform: translate(-14vw, 0px) rotate(-21deg);
   -webkit-transition: 1s ease;
   transition: 1s ease;
 }
 
 .header__item_div {
   -webkit-transform: translate(0vw, 0vh)rotate(20deg);
-          transform: translate(0vw, 0vh)rotate(20deg);
+  transform: translate(0vw, 0vh)rotate(20deg);
   font-size: 35px;
   font-weight: 700;
   line-height: 31.75px;
@@ -571,14 +569,14 @@ a[href^="mailto:"]:hover {
 
 .header__item_div_onload {
   -webkit-transform: translate(27vw, 586px)rotate(20deg);
-          transform: translate(27vw, 586px)rotate(20deg);
+  transform: translate(27vw, 586px)rotate(20deg);
   -webkit-transition: 1s ease;
   transition: 1s ease;
 }
 
 .header__item_div1 {
   -webkit-transform: translate(0vw, 0vh) rotate(-16deg);
-          transform: translate(0vw, 0vh) rotate(-16deg); 
+  transform: translate(0vw, 0vh) rotate(-16deg);
   font-size: 29px;
   font-weight: 700;
   line-height: 26.07px;
@@ -586,28 +584,29 @@ a[href^="mailto:"]:hover {
 
 .header__item_div1_onload {
   -webkit-transform: translate(15vw, 7vh) rotate(-16deg);
-          transform: translate(15vw, 7vh) rotate(-16deg);
+  transform: translate(15vw, 7vh) rotate(-16deg);
   -webkit-transition: 1s ease;
-  transition: 1s ease; 
+  transition: 1s ease;
 }
 
 .header__item_grid {
   -webkit-transform: translate(0vw, 0vh) rotate(16deg);
-          transform: translate(0vw, 0vh) rotate(16deg);
+  transform: translate(0vw, 0vh) rotate(16deg);
   font-size: 55px;
   font-weight: 700;
   line-height: 49.43px;
 }
+
 .header__item_grid_onload {
   -webkit-transform: translate(-15vw, 550px) rotate(16deg);
-          transform: translate(-15vw, 550px) rotate(16deg);
+  transform: translate(-15vw, 550px) rotate(16deg);
   -webkit-transition: 1s ease;
-  transition: 1s ease; 
+  transition: 1s ease;
 }
 
 .header__item_brackets {
   -webkit-transform: translate(0vw, 0vh) rotate(28deg);
-          transform: translate(0vw, 0vh) rotate(28deg);
+  transform: translate(0vw, 0vh) rotate(28deg);
   font-size: 43px;
   height: 43px;
   font-weight: 700;
@@ -616,9 +615,9 @@ a[href^="mailto:"]:hover {
 
 .header__item_brackets_onload {
   -webkit-transform: translate(-23vw, 168px) rotate(28deg);
-          transform: translate(-23vw, 168px) rotate(28deg);
+  transform: translate(-23vw, 168px) rotate(28deg);
   -webkit-transition: 1s ease;
-  transition: 1s ease; 
+  transition: 1s ease;
 }
 
 .price-html-teg__item {
@@ -628,7 +627,7 @@ a[href^="mailto:"]:hover {
 
 .price__item_div {
   -webkit-transform: translate(62vw, -4vh) rotate(20deg);
-          transform: translate(62vw, -4vh) rotate(20deg);
+  transform: translate(62vw, -4vh) rotate(20deg);
   font-size: 35px;
   font-weight: 700;
   line-height: 31.75px;
@@ -636,7 +635,7 @@ a[href^="mailto:"]:hover {
 
 .price__item_brackets {
   -webkit-transform: translate(-20vw, -24vh) rotate(-18deg);
-          transform: translate(-20vw, -24vh) rotate(-18deg);
+  transform: translate(-20vw, -24vh) rotate(-18deg);
   font-size: 48px;
   font-weight: 700;
   line-height: 42.86px;
@@ -644,7 +643,7 @@ a[href^="mailto:"]:hover {
 
 .price__item_brackets1 {
   -webkit-transform: translate(68vw, -10vh) rotate(27deg);
-          transform: translate(68vw, -10vh) rotate(27deg);
+  transform: translate(68vw, -10vh) rotate(27deg);
   font-size: 48px;
   font-weight: 700;
   line-height: 42.86px;
@@ -652,7 +651,7 @@ a[href^="mailto:"]:hover {
 
 .price__item_grid {
   -webkit-transform: translate(-9vw, -4vh) rotate(17deg);
-          transform: translate(-9vw, -4vh) rotate(17deg);
+  transform: translate(-9vw, -4vh) rotate(17deg);
   font-size: 55px;
   font-weight: 700;
   line-height: 49.43px;
@@ -660,7 +659,7 @@ a[href^="mailto:"]:hover {
 
 .price__item_close {
   -webkit-transform: translate(61vw, -24vh) rotate(-23deg);
-          transform: translate(61vw, -24vh) rotate(-23deg);
+  transform: translate(61vw, -24vh) rotate(-23deg);
   font-size: 38px;
   font-weight: 700;
   line-height: 33.97px;
@@ -669,129 +668,183 @@ a[href^="mailto:"]:hover {
 @media (max-width: 1460px) {
   .header__item_close_onload {
     -webkit-transform: translate(-11vw, 525px) rotate(-21deg);
-            transform: translate(-11vw, 525px) rotate(-21deg);
+    transform: translate(-11vw, 525px) rotate(-21deg);
   }
+
   .header__item_div_onload {
     -webkit-transform: translate(20vw, 550px)rotate(20deg);
-            transform: translate(20vw, 550px)rotate(20deg);
+    transform: translate(20vw, 550px)rotate(20deg);
   }
+
   .header__item_div1_onload {
     -webkit-transform: translate(33vw, 7vh) rotate(-16deg);
-            transform: translate(33vw, 7vh) rotate(-16deg);
+    transform: translate(33vw, 7vh) rotate(-16deg);
   }
+
   .header__item_grid_onload {
     -webkit-transform: translate(8vw, 11vh) rotate(16deg);
-            transform: translate(8vw, 11vh) rotate(16deg);
+    transform: translate(8vw, 11vh) rotate(16deg);
   }
+
   .header__item_brackets_onload {
     -webkit-transform: translate(-13vw, 3vh) rotate(28deg);
-            transform: translate(-13vw, 3vh) rotate(28deg);
+    transform: translate(-13vw, 3vh) rotate(28deg);
   }
+
   .price__item_close {
     -webkit-transform: translate(69vw, -24vh) rotate(-23deg);
-            transform: translate(69vw, -24vh) rotate(-23deg);
+    transform: translate(69vw, -24vh) rotate(-23deg);
   }
+
   .price__item_brackets {
     -webkit-transform: translate(-13vw, -24vh) rotate(-18deg);
-            transform: translate(-13vw, -24vh) rotate(-18deg);
+    transform: translate(-13vw, -24vh) rotate(-18deg);
   }
 }
+
 @media (max-width: 1140px) {
   .header__item_close_onload {
     -webkit-transform: translate(-11vw, 190px) rotate(-21deg);
     transform: translate(-11vw, 190px) rotate(-21deg);
   }
+
   .header__item_div_onload {
     -webkit-transform: translate(37vw, 11vh)rotate(20deg);
-            transform: translate(37vw, 11vh)rotate(20deg);
+    transform: translate(37vw, 11vh)rotate(20deg);
   }
+
   .header__item_div1_onload {
     -webkit-transform: translate(75vw, 4vh) rotate(-16deg);
-            transform: translate(75vw, 4vh) rotate(-16deg);
+    transform: translate(75vw, 4vh) rotate(-16deg);
   }
+
   .header__item_grid_onload {
     -webkit-transform: translate(-11vw, 527px) rotate(16deg);
-            transform: translate(-11vw, 527px) rotate(16deg);
+    transform: translate(-11vw, 527px) rotate(16deg);
   }
+
   .price__item_brackets {
     -webkit-transform: translate(-4vw, -310px) rotate(-18deg);
-            transform: translate(-4vw, -310px) rotate(-18deg);
+    transform: translate(-4vw, -310px) rotate(-18deg);
     font-size: 30px;
   }
+
   .price__item_brackets1 {
     -webkit-transform: translate(68vw, -10vh) rotate(27deg);
     transform: translate(71vw, -6vh) rotate(27deg);
     font-size: 48px;
     font-weight: 700;
-}
+  }
+
   .price__item_close {
     -webkit-transform: translate(40vw, -297px) rotate(-23deg);
-            transform: translate(40vw, -297px) rotate(-23deg);
+    transform: translate(40vw, -297px) rotate(-23deg);
     font-size: 30px;
   }
+
   .price__item_grid {
     -webkit-transform: translate(-9vw, -4vh) rotate(17deg);
     transform: translate(-9vw, -2vh) rotate(17deg);
     font-size: 35px;
     font-weight: 700;
   }
+
   .price__item_div {
     -webkit-transform: translate(39vw, -3vh) rotate(20deg);
-            transform: translate(39vw, -3vh) rotate(20deg);
-            font-size: 35px;
+    transform: translate(39vw, -3vh) rotate(20deg);
+    font-size: 35px;
   }
 }
-@media (max-width: 925px) {
-  /* .header__item_close_onload {
-    -webkit-transform: translate(36vw, 27vh) rotate(-21deg);
-            transform: translate(36vw, 27vh) rotate(-21deg);
-  } */
+
+@media (max-width: 980px) {
+
   .price__item_brackets {
-    -webkit-transform: translate(6vw, -330px) rotate(-18deg);
-            transform: translate(6vw, -330px) rotate(-18deg);
+    -webkit-transform: translate(6vw, -331px) rotate(-18deg);
+    transform: translate(6vw, -331px) rotate(-18deg);
     font-size: 30px;
   }
+
   .price__item_close {
-    -webkit-transform: translate(40vw, -332px) rotate(-23deg);
-            transform: translate(40vw, -332px) rotate(-23deg);
+    -webkit-transform: translate(40vw, -333px) rotate(-23deg);
+    transform: translate(40vw, -333px) rotate(-23deg);
     font-size: 30px;
   }
 }
+
+@media (max-width: 925px) {
+
+  .price__item_brackets {
+    -webkit-transform: translate(6vw, -315px) rotate(-18deg);
+    transform: translate(6vw, -315px) rotate(-18deg);
+    font-size: 30px;
+  }
+
+  .price__item_close {
+    -webkit-transform: translate(40vw, -312px) rotate(-23deg);
+    transform: translate(40vw, -312px) rotate(-23deg);
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 785px) {
+
+  .price__item_brackets {
+    -webkit-transform: translate(6vw, -331px) rotate(-18deg);
+    transform: translate(6vw, -331px) rotate(-18deg);
+    font-size: 30px;
+  }
+
+  .price__item_close {
+    -webkit-transform: translate(40vw, -335px) rotate(-23deg);
+    transform: translate(40vw, -335px) rotate(-23deg);
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   .header__item_close_onload {
     -webkit-transform: translate(3vw, -3vh) rotate(-21deg);
-            transform: translate(3vw, -3vh) rotate(-21deg)
+    transform: translate(3vw, -3vh) rotate(-21deg)
   }
+
   .header__item_div_onload {
     -webkit-transform: translate(14vw, 17vh)rotate(20deg);
-            transform: translate(14vw, 17vh)rotate(20deg);
+    transform: translate(14vw, 17vh)rotate(20deg);
   }
+
   .header__item_div1_onload {
     -webkit-transform: translate(52vw, 1vh) rotate(-16deg);
-            transform: translate(52vw, 1vh) rotate(-16deg);
+    transform: translate(52vw, 1vh) rotate(-16deg);
   }
+
   .header__item_grid_onload {
     -webkit-transform: translate(-20vw, 400px) rotate(16deg);
-            transform: translate(-20vw, 400px) rotate(16deg);
+    transform: translate(-20vw, 400px) rotate(16deg);
   }
+
   .header__item_brackets_onload {
     -webkit-transform: translate(-13vw, 3vh) rotate(28deg);
-            transform: translate(-13vw, 3vh) rotate(28deg);
+    transform: translate(-13vw, 3vh) rotate(28deg);
   }
+
   .price__item_div {
     font-size: 23px;
   }
+
   .price__item_brackets {
     display: none;
   }
+
   .price__item_brackets1 {
     -webkit-transform: translate(68vw, -3vh) rotate(27deg);
-            transform: translate(68vw, -3vh) rotate(27deg);
+    transform: translate(68vw, -3vh) rotate(27deg);
     font-size: 23px;
   }
+
   .price__item_grid {
     font-size: 23px;
   }
+
   .price__item_close {
     display: none;
   }
@@ -800,39 +853,48 @@ a[href^="mailto:"]:hover {
 @media (max-width: 570px) {
   .header__item_close_onload {
     -webkit-transform: translate(32vw, 1vh) rotate(-21deg);
-            transform: translate(32vw, 1vh) rotate(-21deg);
+    transform: translate(32vw, 1vh) rotate(-21deg);
     font-size: 22px;
   }
+
   .header__item_div_onload {
     -webkit-transform: translate(6vw, 17vh)rotate(20deg);
-            transform: translate(6vw, 17vh)rotate(20deg);
+    transform: translate(6vw, 17vh)rotate(20deg);
     font-size: 22px;
   }
+
   .header__item_div1_onload {
     display: none;
   }
+
   .header__item_grid_onload {
     -webkit-transform: translate(20vw, 7vh) rotate(16deg);
-            transform: translate(20vw, 7vh) rotate(16deg);
+    transform: translate(20vw, 7vh) rotate(16deg);
     font-size: 22px;
   }
+
   .header__item_brackets_onload {
     -webkit-transform: translate(-5vw, 1vh) rotate(28deg);
-            transform: translate(-5vw, 1vh) rotate(28deg);
+    transform: translate(-5vw, 1vh) rotate(28deg);
     font-size: 22px;
   }
+
   .price__item_div {
     display: none;
   }
+
   .price__item_brackets {
     display: none;
   }
+
   .price__item_brackets1 {
     display: none;
   }
+
   .price__item_grid {
     display: none;
   }
+
   .price__item_close {
     display: none;
   }
@@ -841,28 +903,32 @@ a[href^="mailto:"]:hover {
 @media (max-width: 400px) {
   .header__item_close_onload {
     -webkit-transform: translate(32vw, 1vh) rotate(-21deg);
-            transform: translate(32vw, 1vh) rotate(-21deg);
+    transform: translate(32vw, 1vh) rotate(-21deg);
     font-size: 22px;
   }
+
   .header__item_div_onload {
     -webkit-transform: translate(-3vw, 13vh)rotate(20deg);
-            transform: translate(-3vw, 13vh)rotate(20deg);
+    transform: translate(-3vw, 13vh)rotate(20deg);
     font-size: 22px;
   }
+
   .header__item_div1_onload {
     display: none;
     -webkit-transform: translate(52vw, 1vh) rotate(-16deg);
-            transform: translate(52vw, 1vh) rotate(-16deg);
+    transform: translate(52vw, 1vh) rotate(-16deg);
     font-size: 22px;
   }
+
   .header__item_grid_onload {
     -webkit-transform: translate(20vw, 4vh) rotate(16deg);
-            transform: translate(20vw, 4vh) rotate(16deg);
+    transform: translate(20vw, 4vh) rotate(16deg);
     font-size: 22px;
   }
+
   .header__item_brackets_onload {
     -webkit-transform: translate(-5vw, 1vh) rotate(28deg);
-            transform: translate(-5vw, 1vh) rotate(28deg);
+    transform: translate(-5vw, 1vh) rotate(28deg);
     font-size: 22px;
   }
 }
@@ -938,7 +1004,8 @@ a[href^="mailto:"]:hover {
 
 /*----------  Круглая кнопка телефона мобильной версии  ----------*/
 
-.header-contact__button span i, i {
+.header-contact__button span i,
+i {
   display: none;
 }
 
@@ -946,9 +1013,8 @@ i::before {
   display: none;
 }
 
-.fa-phone {
+.fa-phone-gradient {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#f26522), color-stop(99%, #fa0891), to(#fa0891));
-  background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -975,7 +1041,7 @@ i::before {
   background-color: #ffffff;
   position: absolute;
   left: -30px;
-  bottom: 50%;
+  bottom: 62%;
   background-image: url(../img/left-arrow.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -990,7 +1056,7 @@ i::before {
 
 .prev:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
   transition: transform .5s;
@@ -1007,7 +1073,7 @@ i::before {
   background-color: #ffffff;
   position: absolute;
   right: -30px;
-  bottom: 50%;
+  bottom: 62%;
   background-image: url(../img/right-arrow.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -1022,7 +1088,7 @@ i::before {
 
 .next:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
   transition: transform .5s;
@@ -1030,7 +1096,9 @@ i::before {
 }
 
 @media screen and (max-width: 1024px) {
-  .prev, .next {
+
+  .prev,
+  .next {
     display: none;
   }
 }
@@ -1038,14 +1106,15 @@ i::before {
 .swiper-pagination {
   width: 100%;
   margin: 0 auto;
-  bottom: -118px;
+  position: unset;
+  margin-top: 103px;
 }
 
 .swiper-pagination-bullet {
   margin-right: 30px;
   width: 18px;
   height: 18px;
-  background-color: #857f7f; /* Цвет поментять на #ebebeb после того как сделаю*/
+  background-color: #857f7f;
   border-radius: 100%;
   text-indent: -9999px;
   outline: none;
@@ -1059,10 +1128,11 @@ i::before {
 /*----------  Pop-up menu   ----------*/
 .stop-scrolling {
   width: 100%;
-	overflow-y: hidden;
-  }
+  overflow-y: hidden;
+}
 
-.modal-call, .modal-more {
+.modal-call,
+.modal-more {
   display: none;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.8);
@@ -1083,14 +1153,14 @@ i::before {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 0;
   margin: 0 auto;
   margin-top: 50px;
@@ -1105,14 +1175,14 @@ i::before {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 300px;
   height: 320px;
   margin: 0 auto;
@@ -1140,11 +1210,11 @@ i::before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: transparent;
   width: 20px;
   height: 20px;
@@ -1157,11 +1227,12 @@ i::before {
   height: 2px;
   background-color: #000000;
   -webkit-transform-origin: center;
-          transform-origin: center;
+  transform-origin: center;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  
+  transform: rotate(45deg);
+
 }
+
 .close::after {
   content: '';
   width: 20px;
@@ -1169,7 +1240,7 @@ i::before {
   display: block;
   background-color: #000000;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .modal-body {
@@ -1183,14 +1254,14 @@ i::before {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding: 0 20px;
 }
 
-.modal-form__phone, 
-.modal-form__mail, 
-.modal-form__name  {
+.modal-form__phone,
+.modal-form__mail,
+.modal-form__name {
   width: 100%;
   height: 40px;
   font-size: 16px;
