@@ -186,7 +186,8 @@
 
   .header-contact__button span i {
     display: block;
-    transform: translateY(-36px);
+    -webkit-transform: translateY(-36px);
+            transform: translateY(-36px);
   }
   .header-contact__button span i::before {
     display: block;
@@ -457,7 +458,8 @@
 
   .header-contact__button span i {
     font-size: 0.8em;
-    transform: translateY(-36px);
+    -webkit-transform: translateY(-36px);
+            transform: translateY(-36px);
   }
 
   .burger__btn {

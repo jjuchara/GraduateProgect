@@ -71,9 +71,9 @@ button:focus {
   font-size: 54px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 103px;
+  margin-bottom: 112px;
   line-height: 1;
-  padding-top: 88px;
+  padding-top: 83px;
 }
 
 .button_empty {
@@ -84,12 +84,14 @@ button:focus {
   font-size: 16px;
   font-weight: 400;
   cursor: pointer;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 
 .button_empty:hover {
   background-color: #ff4e2e;
   color: #fff;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -102,6 +104,7 @@ button:focus {
   font-weight: 400;
   color: #fff;
   cursor: pointer;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -109,6 +112,7 @@ button:focus {
   background-color: transparent;
   color: #f53f4f;
   border: 1px solid #f82370;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -137,12 +141,14 @@ header {
   font-weight: 400;
   margin-right: 34px;
   cursor: pointer;
+  -webkit-transition: .5s;
   transition: .5s
 }
 
 .nav ul li a:hover {
   color: #fc557c;
   text-decoration: underline;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -168,9 +174,11 @@ header {
 
 .developer {
   -ms-flex-item-align: center;
-  align-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
   margin-right: -40px;
-  transform: translateY(-44px);
+  -webkit-transform: translateY(-44px);
+          transform: translateY(-44px);
 }
 
 .developer__name {
@@ -211,11 +219,13 @@ header {
 }
 
 .skills__item:first-child {
-  transform: translate(-10px, -8px);
+  -webkit-transform: translate(-10px, -8px);
+          transform: translate(-10px, -8px);
 }
 
 .skills__item {
-  transform: translate(18px, -11px);
+  -webkit-transform: translate(18px, -11px);
+          transform: translate(18px, -11px);
 }
 
 .skills__img {
@@ -241,6 +251,11 @@ header {
   position: relative;
 }
 
+.cases .heading {
+  margin-bottom: 107px;
+  padding-top: 89px;
+}
+
 .case__img {
   margin-bottom: 34px;
 }
@@ -251,12 +266,13 @@ header {
 
 .case__desc {
   -ms-flex-item-align: center;
-  align-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .case__button {
   margin: 0 auto;
-  margin-top: 96px;
+  margin-top: 91px;
   margin-bottom: 102px;
 }
 
@@ -274,14 +290,18 @@ header {
   margin: 0 auto;
   margin-right: 59px;
   padding-top: 76px;
-  padding-bottom: 35px;
+  padding-bottom: 39px;
+  line-height: 1.3;
 }
 
 .price__desc {
+  width: 88%;
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  padding-bottom: 80px;
+  padding-bottom: 35px;
+  line-height: 1.4;
+  margin-left: 20px;
 }
 
 .price__desc-text {
@@ -313,12 +333,14 @@ footer {
 }
 
 footer ul li a {
+  -webkit-transition: 0.5s;
   transition: 0.5s
 }
 
 footer ul li a:hover {
   color: #fc557c;
   text-decoration: underline;
+  -webkit-transition: 0.5s;
   transition: 0.5s
 }
 
@@ -350,12 +372,14 @@ footer ul li a:hover {
 a[href^="tel:"] {
   text-decoration: none;
   color: #000000;
+  -webkit-transition: color 0.5s;
   transition: color 0.5s
 }
 
 a[href^="tel:"]:hover {
   text-decoration: none;
   color: #fc557c;
+  -webkit-transition: color 0.5s;
   transition: color 0.5s
 }
 
@@ -383,12 +407,14 @@ a[href^="tel:"]:hover {
 a[href^="mailto:"] {
   text-decoration: none;
   color: #000000;
+  -webkit-transition: color 0.5s;
   transition: color 0.5s
 }
 
 a[href^="mailto:"]:hover {
   text-decoration: none;
   color: #fc557c;
+  -webkit-transition: color 0.5s;
   transition: color 0.5s
 }
 
@@ -419,11 +445,14 @@ a[href^="mailto:"]:hover {
   height: 21px;
   background-position: -105px -5px;
   cursor: pointer;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .socials-icons_vk:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -432,11 +461,14 @@ a[href^="mailto:"]:hover {
   height: 28px;
   background-position: -5px -5px;
   cursor: pointer;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .socials-icons_fb:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -445,11 +477,14 @@ a[href^="mailto:"]:hover {
   height: 25px;
   background-position: -66px -5px;
   cursor: pointer;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .socials-icons_tw:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -458,11 +493,14 @@ a[href^="mailto:"]:hover {
   height: 25px;
   background-position: -31px -5px;
   cursor: pointer;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 } 
 
 .socials-icons_ig:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -474,7 +512,7 @@ a[href^="mailto:"]:hover {
 .footer-rights {
   background-color: #31293c;
   text-align: center;
-  margin-top: 76px;
+  margin-top: 81px;
 }
 
 .footer-rights__text {
@@ -483,8 +521,8 @@ a[href^="mailto:"]:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
-  padding-top: 32px;
-  padding-bottom: 33px;
+  padding-top: 30px;
+  padding-bottom: 35px;
 }
 
 /*----------  Всплывающие HTML Теги  ----------*/
@@ -492,8 +530,10 @@ a[href^="mailto:"]:hover {
   display: inline-block;
   width: 100%;
   height: 0;
+  -webkit-transition: 2s;
   transition: 2s;
-  transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
 
 .html-teg__item {
@@ -508,53 +548,66 @@ a[href^="mailto:"]:hover {
 }
 
 .header__item_close {
-  transform: translate(0vw, 0vh) rotate(-21deg);
+  -webkit-transform: translate(0vw, 0vh) rotate(-21deg);
+          transform: translate(0vw, 0vh) rotate(-21deg);
   font-size: 38px;
   font-weight: 700;
   line-height: 33.97px;
 }
 .header__item_close_onload {
-  transform: translate(-14vw, 0px) rotate(-21deg);
+  -webkit-transform: translate(-14vw, 0px) rotate(-21deg);
+          transform: translate(-14vw, 0px) rotate(-21deg);
+  -webkit-transition: 1s ease;
   transition: 1s ease;
 }
 
 .header__item_div {
-  transform: translate(0vw, 0vh)rotate(20deg);
+  -webkit-transform: translate(0vw, 0vh)rotate(20deg);
+          transform: translate(0vw, 0vh)rotate(20deg);
   font-size: 35px;
   font-weight: 700;
   line-height: 31.75px;
 }
 
 .header__item_div_onload {
-  transform: translate(27vw, 586px)rotate(20deg);
+  -webkit-transform: translate(27vw, 586px)rotate(20deg);
+          transform: translate(27vw, 586px)rotate(20deg);
+  -webkit-transition: 1s ease;
   transition: 1s ease;
 }
 
 .header__item_div1 {
-  transform: translate(0vw, 0vh) rotate(-16deg); 
+  -webkit-transform: translate(0vw, 0vh) rotate(-16deg);
+          transform: translate(0vw, 0vh) rotate(-16deg); 
   font-size: 29px;
   font-weight: 700;
   line-height: 26.07px;
 }
 
 .header__item_div1_onload {
-  transform: translate(15vw, 7vh) rotate(-16deg);
+  -webkit-transform: translate(15vw, 7vh) rotate(-16deg);
+          transform: translate(15vw, 7vh) rotate(-16deg);
+  -webkit-transition: 1s ease;
   transition: 1s ease; 
 }
 
 .header__item_grid {
-  transform: translate(0vw, 0vh) rotate(16deg);
+  -webkit-transform: translate(0vw, 0vh) rotate(16deg);
+          transform: translate(0vw, 0vh) rotate(16deg);
   font-size: 55px;
   font-weight: 700;
   line-height: 49.43px;
 }
 .header__item_grid_onload {
-  transform: translate(-15vw, 550px) rotate(16deg);
+  -webkit-transform: translate(-15vw, 550px) rotate(16deg);
+          transform: translate(-15vw, 550px) rotate(16deg);
+  -webkit-transition: 1s ease;
   transition: 1s ease; 
 }
 
 .header__item_brackets {
-  transform: translate(0vw, 0vh) rotate(28deg);
+  -webkit-transform: translate(0vw, 0vh) rotate(28deg);
+          transform: translate(0vw, 0vh) rotate(28deg);
   font-size: 43px;
   height: 43px;
   font-weight: 700;
@@ -562,7 +615,9 @@ a[href^="mailto:"]:hover {
 }
 
 .header__item_brackets_onload {
-  transform: translate(-23vw, 168px) rotate(28deg);
+  -webkit-transform: translate(-23vw, 168px) rotate(28deg);
+          transform: translate(-23vw, 168px) rotate(28deg);
+  -webkit-transition: 1s ease;
   transition: 1s ease; 
 }
 
@@ -572,35 +627,40 @@ a[href^="mailto:"]:hover {
 }
 
 .price__item_div {
-  transform: translate(62vw, -4vh) rotate(20deg);
+  -webkit-transform: translate(62vw, -4vh) rotate(20deg);
+          transform: translate(62vw, -4vh) rotate(20deg);
   font-size: 35px;
   font-weight: 700;
   line-height: 31.75px;
 }
 
 .price__item_brackets {
-  transform: translate(-20vw, -24vh) rotate(-18deg);
+  -webkit-transform: translate(-20vw, -24vh) rotate(-18deg);
+          transform: translate(-20vw, -24vh) rotate(-18deg);
   font-size: 48px;
   font-weight: 700;
   line-height: 42.86px;
 }
 
 .price__item_brackets1 {
-  transform: translate(68vw, -10vh) rotate(27deg);
+  -webkit-transform: translate(68vw, -10vh) rotate(27deg);
+          transform: translate(68vw, -10vh) rotate(27deg);
   font-size: 48px;
   font-weight: 700;
   line-height: 42.86px;
 }
 
 .price__item_grid {
-  transform: translate(-9vw, -4vh) rotate(17deg);
+  -webkit-transform: translate(-9vw, -4vh) rotate(17deg);
+          transform: translate(-9vw, -4vh) rotate(17deg);
   font-size: 55px;
   font-weight: 700;
   line-height: 49.43px;
 }
 
 .price__item_close {
-  transform: translate(61vw, -24vh) rotate(-23deg);
+  -webkit-transform: translate(61vw, -24vh) rotate(-23deg);
+          transform: translate(61vw, -24vh) rotate(-23deg);
   font-size: 38px;
   font-weight: 700;
   line-height: 33.97px;
@@ -608,80 +668,102 @@ a[href^="mailto:"]:hover {
 
 @media (max-width: 1460px) {
   .header__item_close_onload {
-    transform: translate(-11vw, 525px) rotate(-21deg);
+    -webkit-transform: translate(-11vw, 525px) rotate(-21deg);
+            transform: translate(-11vw, 525px) rotate(-21deg);
   }
   .header__item_div_onload {
-    transform: translate(20vw, 550px)rotate(20deg);
+    -webkit-transform: translate(20vw, 550px)rotate(20deg);
+            transform: translate(20vw, 550px)rotate(20deg);
   }
   .header__item_div1_onload {
-    transform: translate(33vw, 7vh) rotate(-16deg);
+    -webkit-transform: translate(33vw, 7vh) rotate(-16deg);
+            transform: translate(33vw, 7vh) rotate(-16deg);
   }
   .header__item_grid_onload {
-    transform: translate(8vw, 11vh) rotate(16deg);
+    -webkit-transform: translate(8vw, 11vh) rotate(16deg);
+            transform: translate(8vw, 11vh) rotate(16deg);
   }
   .header__item_brackets_onload {
-    transform: translate(-13vw, 3vh) rotate(28deg);
+    -webkit-transform: translate(-13vw, 3vh) rotate(28deg);
+            transform: translate(-13vw, 3vh) rotate(28deg);
   }
   .price__item_close {
-    transform: translate(69vw, -24vh) rotate(-23deg);
+    -webkit-transform: translate(69vw, -24vh) rotate(-23deg);
+            transform: translate(69vw, -24vh) rotate(-23deg);
   }
   .price__item_brackets {
-    transform: translate(-13vw, -24vh) rotate(-18deg);
+    -webkit-transform: translate(-13vw, -24vh) rotate(-18deg);
+            transform: translate(-13vw, -24vh) rotate(-18deg);
   }
 }
 @media (max-width: 1140px) {
   .header__item_close_onload {
-    transform: translate(9vw, 534px) rotate(-21deg);
+    -webkit-transform: translate(9vw, 534px) rotate(-21deg);
+            transform: translate(9vw, 534px) rotate(-21deg);
   }
   .header__item_div_onload {
-    transform: translate(37vw, 11vh)rotate(20deg);
+    -webkit-transform: translate(37vw, 11vh)rotate(20deg);
+            transform: translate(37vw, 11vh)rotate(20deg);
   }
   .header__item_div1_onload {
-    transform: translate(75vw, 4vh) rotate(-16deg);
+    -webkit-transform: translate(75vw, 4vh) rotate(-16deg);
+            transform: translate(75vw, 4vh) rotate(-16deg);
   }
   .header__item_grid_onload {
-    transform: translate(-11vw, 527px) rotate(16deg);
+    -webkit-transform: translate(-11vw, 527px) rotate(16deg);
+            transform: translate(-11vw, 527px) rotate(16deg);
   }
   .price__item_brackets {
-    transform: translate(6vw, -355px) rotate(-18deg);
+    -webkit-transform: translate(6vw, -355px) rotate(-18deg);
+            transform: translate(6vw, -355px) rotate(-18deg);
     font-size: 30px;
   }
   .price__item_close {
-    transform: translate(40vw, -357px) rotate(-23deg);
+    -webkit-transform: translate(40vw, -357px) rotate(-23deg);
+            transform: translate(40vw, -357px) rotate(-23deg);
     font-size: 30px;
   }
   .price__item_div {
-    transform: translate(39vw, -6vh) rotate(20deg);
+    -webkit-transform: translate(39vw, -6vh) rotate(20deg);
+            transform: translate(39vw, -6vh) rotate(20deg);
   }
 }
 @media (max-width: 925px) {
   .header__item_close_onload {
-    transform: translate(36vw, 27vh) rotate(-21deg);
+    -webkit-transform: translate(36vw, 27vh) rotate(-21deg);
+            transform: translate(36vw, 27vh) rotate(-21deg);
   }
   .price__item_brackets {
-    transform: translate(6vw, -330px) rotate(-18deg);
+    -webkit-transform: translate(6vw, -330px) rotate(-18deg);
+            transform: translate(6vw, -330px) rotate(-18deg);
     font-size: 30px;
   }
   .price__item_close {
-    transform: translate(40vw, -332px) rotate(-23deg);
+    -webkit-transform: translate(40vw, -332px) rotate(-23deg);
+            transform: translate(40vw, -332px) rotate(-23deg);
     font-size: 30px;
   }
 }
 @media (max-width: 768px) {
   .header__item_close_onload {
-    transform: translate(3vw, -3vh) rotate(-21deg)
+    -webkit-transform: translate(3vw, -3vh) rotate(-21deg);
+            transform: translate(3vw, -3vh) rotate(-21deg)
   }
   .header__item_div_onload {
-    transform: translate(14vw, 17vh)rotate(20deg);
+    -webkit-transform: translate(14vw, 17vh)rotate(20deg);
+            transform: translate(14vw, 17vh)rotate(20deg);
   }
   .header__item_div1_onload {
-    transform: translate(52vw, 1vh) rotate(-16deg);
+    -webkit-transform: translate(52vw, 1vh) rotate(-16deg);
+            transform: translate(52vw, 1vh) rotate(-16deg);
   }
   .header__item_grid_onload {
-    transform: translate(-20vw, 400px) rotate(16deg);
+    -webkit-transform: translate(-20vw, 400px) rotate(16deg);
+            transform: translate(-20vw, 400px) rotate(16deg);
   }
   .header__item_brackets_onload {
-    transform: translate(-13vw, 3vh) rotate(28deg);
+    -webkit-transform: translate(-13vw, 3vh) rotate(28deg);
+            transform: translate(-13vw, 3vh) rotate(28deg);
   }
   .price__item_div {
     font-size: 23px;
@@ -690,7 +772,8 @@ a[href^="mailto:"]:hover {
     display: none;
   }
   .price__item_brackets1 {
-    transform: translate(68vw, -3vh) rotate(27deg);
+    -webkit-transform: translate(68vw, -3vh) rotate(27deg);
+            transform: translate(68vw, -3vh) rotate(27deg);
     font-size: 23px;
   }
   .price__item_grid {
@@ -703,22 +786,26 @@ a[href^="mailto:"]:hover {
 
 @media (max-width: 570px) {
   .header__item_close_onload {
-    transform: translate(32vw, 1vh) rotate(-21deg);
+    -webkit-transform: translate(32vw, 1vh) rotate(-21deg);
+            transform: translate(32vw, 1vh) rotate(-21deg);
     font-size: 22px;
   }
   .header__item_div_onload {
-    transform: translate(6vw, 17vh)rotate(20deg);
+    -webkit-transform: translate(6vw, 17vh)rotate(20deg);
+            transform: translate(6vw, 17vh)rotate(20deg);
     font-size: 22px;
   }
   .header__item_div1_onload {
     display: none;
   }
   .header__item_grid_onload {
-    transform: translate(20vw, 7vh) rotate(16deg);
+    -webkit-transform: translate(20vw, 7vh) rotate(16deg);
+            transform: translate(20vw, 7vh) rotate(16deg);
     font-size: 22px;
   }
   .header__item_brackets_onload {
-    transform: translate(-5vw, 1vh) rotate(28deg);
+    -webkit-transform: translate(-5vw, 1vh) rotate(28deg);
+            transform: translate(-5vw, 1vh) rotate(28deg);
     font-size: 22px;
   }
   .price__item_div {
@@ -740,24 +827,29 @@ a[href^="mailto:"]:hover {
 
 @media (max-width: 400px) {
   .header__item_close_onload {
-    transform: translate(32vw, 1vh) rotate(-21deg);
+    -webkit-transform: translate(32vw, 1vh) rotate(-21deg);
+            transform: translate(32vw, 1vh) rotate(-21deg);
     font-size: 22px;
   }
   .header__item_div_onload {
-    transform: translate(-3vw, 13vh)rotate(20deg);
+    -webkit-transform: translate(-3vw, 13vh)rotate(20deg);
+            transform: translate(-3vw, 13vh)rotate(20deg);
     font-size: 22px;
   }
   .header__item_div1_onload {
     display: none;
-    transform: translate(52vw, 1vh) rotate(-16deg);
+    -webkit-transform: translate(52vw, 1vh) rotate(-16deg);
+            transform: translate(52vw, 1vh) rotate(-16deg);
     font-size: 22px;
   }
   .header__item_grid_onload {
-    transform: translate(20vw, 4vh) rotate(16deg);
+    -webkit-transform: translate(20vw, 4vh) rotate(16deg);
+            transform: translate(20vw, 4vh) rotate(16deg);
     font-size: 22px;
   }
   .header__item_brackets_onload {
-    transform: translate(-5vw, 1vh) rotate(28deg);
+    -webkit-transform: translate(-5vw, 1vh) rotate(28deg);
+            transform: translate(-5vw, 1vh) rotate(28deg);
     font-size: 22px;
   }
 }
@@ -877,12 +969,19 @@ i::before {
   z-index: 9;
   outline: none;
   cursor: pointer;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
   transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
 .prev:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
   transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
 .next {
@@ -902,12 +1001,19 @@ i::before {
   z-index: 9;
   outline: none;
   cursor: pointer;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
   transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
 .next:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
   transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
 @media screen and (max-width: 1024px) {
@@ -959,10 +1065,19 @@ i::before {
 
 .modal-content {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 0;
   margin: 0 auto;
   margin-top: 50px;
@@ -972,10 +1087,19 @@ i::before {
 
 .modal-more .modal-content {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 300px;
   height: 320px;
   margin: 0 auto;
@@ -999,9 +1123,15 @@ i::before {
   position: absolute;
   top: 10px;
   right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: transparent;
   width: 20px;
   height: 20px;
@@ -1013,8 +1143,10 @@ i::before {
   width: 20px;
   height: 2px;
   background-color: #000000;
-  transform-origin: center;
-  transform: rotate(45deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   
 }
 .close::after {
@@ -1023,7 +1155,8 @@ i::before {
   height: 2px;
   display: block;
   background-color: #000000;
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .modal-body {
@@ -1032,8 +1165,13 @@ i::before {
 
 .modal-form {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0 20px;
 }
 
