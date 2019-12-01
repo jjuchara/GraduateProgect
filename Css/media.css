@@ -192,8 +192,9 @@
   .header-contact__button span i {
     display: block;
     -webkit-transform: translateY(-36px);
-            transform: translateY(-36px);
+    transform: translateY(-36px);
   }
+
   .header-contact__button span i::before {
     display: block;
   }
@@ -306,7 +307,7 @@
     width: 50%;
     height: auto;
     -webkit-transform: translateY(-13px);
-            transform: translateY(-13px);
+    transform: translateY(-13px);
   }
 
   .heading {
@@ -440,9 +441,9 @@
 }
 
 @media (max-width: 480px) {
-.button_fill {
-  font-size: 16px;
-}
+  .button_fill {
+    font-size: 16px;
+  }
 
   .bg-wrapper {
     background-size: contain;
@@ -470,7 +471,7 @@
   .header-contact__button span i {
     font-size: 0.8em;
     -webkit-transform: translateY(-36px);
-            transform: translateY(-36px);
+    transform: translateY(-36px);
   }
 
   .burger__btn {
@@ -489,8 +490,8 @@
   }
 
   .developer-wrapper {
-  -webkit-transform: translateY(227px);
-  transform: translateY(227px);
+    -webkit-transform: translateY(227px);
+    transform: translateY(227px);
   }
 
   .developer {
@@ -509,7 +510,7 @@
   }
 
   .heading {
-    margin-top: 120px;
+    margin-top: 78px;
     margin-bottom: 47px;
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
@@ -626,13 +627,13 @@
     background: url(../img/bg-320.png) no-repeat;
     background-position: 100% 100%;
     -webkit-transform: translateY(-152px);
-            transform: translateY(-152px);
+    transform: translateY(-152px);
   }
 
-.developer-wrapper {
-  -webkit-transform: translateY(228px);
-          transform: translateY(228px);
-}
+  .developer-wrapper {
+    -webkit-transform: translateY(228px);
+    transform: translateY(228px);
+  }
 
   .developer-img {
     width: 80%;
