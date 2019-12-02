@@ -32,13 +32,13 @@ $(document).ready(function(){
     event.preventDefault();
     $('.nav').slideToggle();
     $(this).toggleClass('burger__btn_active');
-    /*----------  Скрываем меню по клику на элемент  ----------*/
-    $('.menu__item a').click(function(){
-      $('.nav').slideToggle();
-      if ($('.burger__btn').hasClass('burger__btn_active')) {
-        $('.burger__btn').removeClass('burger__btn_active');
-      }
-    });
+});
+  /*----------  Скрываем меню по клику на элемент  ----------*/
+$('.menu__item a').click(function(){
+  $('.nav').slideToggle();
+  if ($('.burger__btn').hasClass('burger__btn_active')) {
+    $('.burger__btn').removeClass('burger__btn_active');
+  }
 });
 
 /*----------  Функции отключения скрола при активации модалки   ----------*/

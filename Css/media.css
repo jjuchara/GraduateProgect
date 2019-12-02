@@ -61,7 +61,8 @@
   }
 
   .developer-img {
-    margin-right: 0;
+    -webkit-transform: translateX(-81px);
+    transform: translateX(-81px);
   }
 
   .burger {
@@ -281,8 +282,8 @@
   }
 
   .developer-wrapper {
-    -webkit-transform: translateY(222px);
-    transform: translateY(222px);
+    -webkit-transform: translateY(216px);
+    transform: translateY(216px);
   }
 
   .developer {
@@ -306,8 +307,8 @@
   .developer-img {
     width: 50%;
     height: auto;
-    -webkit-transform: translateY(-13px);
-    transform: translateY(-13px);
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
   }
 
   .heading {
@@ -485,13 +486,13 @@
   }
 
   .developer-img {
-    -webkit-transform: translate(30px, -13px);
-    transform: translate(30px, -13px);
+    -webkit-transform: translate(-11px, -10px);
+    transform: translate(-11px, -10px);
   }
 
   .developer-wrapper {
     -webkit-transform: translateY(227px);
-    transform: translateY(227px);
+    transform: translateY(224px);
   }
 
   .developer {
@@ -510,7 +511,7 @@
   }
 
   .heading {
-    margin-top: 78px;
+    margin-top: 120px;
     margin-bottom: 47px;
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
@@ -631,12 +632,18 @@
   }
 
   .developer-wrapper {
-    -webkit-transform: translateY(228px);
-    transform: translateY(228px);
+    -webkit-transform: translateY(225px);
+    transform: translateY(225px);
   }
 
   .developer-img {
     width: 80%;
+    -webkit-transform: translate(-11px, -10px);
+            transform: translate(-11px, -10px);
+  }
+
+  .heading {
+    margin-top: 78px;
   }
 
   .footer-rights {
