@@ -1,5 +1,4 @@
 /* font-family: 'Roboto', sans-serif; 
-   font-family: 'Roboto Black', arial;
  */
 
 
@@ -91,8 +90,8 @@ button:focus {
 .button_empty:hover {
   background-color: #ff4e2e;
   color: #fff;
-  -webkit-transition: background-color .5, color .5s;
-  transition: background-color .5, color .5s;
+  -webkit-transition: background-color .5s, color .5s;
+  transition: background-color .5s, color .5s;
 }
 
 .button_fill {
@@ -187,7 +186,7 @@ header {
 
 .developer__name {
   color: #1f1f24;
-  font-family: 'Roboto Black', arial;
+  font-family: 'Roboto', sans-serif;
   font-size: 78px;
   font-weight: 900;
   line-height: 1;

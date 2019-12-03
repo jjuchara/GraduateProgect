@@ -272,6 +272,10 @@
     font-size: 13px;
   }
 
+  .header-contact {
+    min-width: 60%;
+  }
+
   .header-contact__phone {
     font-size: 18px;
   }
@@ -455,6 +459,10 @@
 
   .mob-menu-wrapper {
     z-index: 9;
+  }
+
+  .header-contact {
+    min-width: 70%;
   }
 
   .header-contact__button {
